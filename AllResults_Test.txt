@@ -1,0 +1,6800 @@
+$BP
+$BP$`level 3`
+$GOBP_IMMUNE_RESPONSE
+$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -1.0389, p-value = 0.1494
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.4717738
+sample estimates:
+Sorensen dissimilarity 
+             0.3975904 
+attr(,"se")
+standard error 
+    0.04510034 
+
+
+
+$GOBP_TISSUE_DEVELOPMENT
+$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -7.0963, p-value = 6.406e-13
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2676341
+sample estimates:
+Sorensen dissimilarity 
+             0.2142857 
+attr(,"se")
+standard error 
+     0.0324335 
+
+
+$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.3832, p-value = 0.9167
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.5941286
+sample estimates:
+Sorensen dissimilarity 
+             0.5128205 
+attr(,"se")
+standard error 
+    0.04943183 
+
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -6.4131, p-value = 7.132e-11
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2818839
+sample estimates:
+Sorensen dissimilarity 
+             0.2258065 
+attr(,"se")
+standard error 
+    0.03409264 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -0.40329, p-value = 0.3434
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.00000 0.50536
+sample estimates:
+Sorensen dissimilarity 
+             0.4246575 
+attr(,"se")
+standard error 
+    0.04906361 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -5.3041, p-value = 5.661e-08
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.3102989
+sample estimates:
+Sorensen dissimilarity 
+                  0.25 
+attr(,"se")
+standard error 
+    0.03665915 
+
+
+
+$GOBP_PHOSPHORYLATION
+$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -9.3599, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2196444
+sample estimates:
+Sorensen dissimilarity 
+             0.1717172 
+attr(,"se")
+standard error 
+    0.02913769 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -2.3379, p-value = 0.009696
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.414008
+sample estimates:
+Sorensen dissimilarity 
+             0.3417722 
+attr(,"se")
+standard error 
+    0.04391628 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -8.0392, p-value = 4.52e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2432448
+sample estimates:
+Sorensen dissimilarity 
+             0.1914894 
+attr(,"se")
+standard error 
+    0.03146508 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -6.7948, p-value = 5.423e-12
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2693932
+sample estimates:
+Sorensen dissimilarity 
+             0.2134831 
+attr(,"se")
+standard error 
+     0.0339909 
+
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -7.6989, p-value = 6.862e-15
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2505429
+sample estimates:
+Sorensen dissimilarity 
+              0.197861 
+attr(,"se")
+standard error 
+    0.03202837 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -0.60687, p-value = 0.272
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.4948641
+sample estimates:
+Sorensen dissimilarity 
+              0.414966 
+attr(,"se")
+standard error 
+     0.0485746 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -3.679, p-value = 0.0001171
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.3642671
+sample estimates:
+Sorensen dissimilarity 
+              0.299435 
+attr(,"se")
+standard error 
+     0.0394151 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -6.7467, p-value = 7.562e-12
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2668409
+sample estimates:
+Sorensen dissimilarity 
+             0.2095808 
+attr(,"se")
+standard error 
+    0.03481163 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -6.6233, p-value = 1.756e-11
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2741432
+sample estimates:
+Sorensen dissimilarity 
+             0.2178771 
+attr(,"se")
+standard error 
+    0.03420739 
+
+
+
+attr(,"class")
+[1] "equivSDhtestList" "list"            
+
+$BP$`level 4`
+$GOBP_IMMUNE_RESPONSE
+$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -0.083997, p-value = 0.4665
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.4744919
+sample estimates:
+Sorensen dissimilarity 
+             0.4428274 
+attr(,"se")
+standard error 
+    0.01925063 
+
+
+
+$GOBP_TISSUE_DEVELOPMENT
+$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -19.023, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2250019
+sample estimates:
+Sorensen dissimilarity 
+             0.2042311 
+attr(,"se")
+standard error 
+    0.01262778 
+
+
+$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 4.6516, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.5754722
+sample estimates:
+Sorensen dissimilarity 
+             0.5412429 
+attr(,"se")
+standard error 
+     0.0208099 
+
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -18.522, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.226637
+sample estimates:
+Sorensen dissimilarity 
+               0.20541 
+attr(,"se")
+standard error 
+    0.01290512 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.4848, p-value = 0.9312
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.510043
+sample estimates:
+Sorensen dissimilarity 
+             0.4755662 
+attr(,"se")
+standard error 
+    0.02096043 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -18.241, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2243453
+sample estimates:
+Sorensen dissimilarity 
+             0.2025316 
+attr(,"se")
+standard error 
+    0.01326174 
+
+
+
+$GOBP_PHOSPHORYLATION
+$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -26.975, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.1679925
+sample estimates:
+Sorensen dissimilarity 
+             0.1500406 
+attr(,"se")
+standard error 
+    0.01091403 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -2.0816, p-value = 0.01869
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.4359215
+sample estimates:
+Sorensen dissimilarity 
+             0.4038245 
+attr(,"se")
+standard error 
+    0.01951359 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -15.073, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2581181
+sample estimates:
+Sorensen dissimilarity 
+             0.2352941 
+attr(,"se")
+standard error 
+    0.01387597 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -14.174, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2649998
+sample estimates:
+Sorensen dissimilarity 
+             0.2414414 
+attr(,"se")
+standard error 
+    0.01432246 
+
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -19.233, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.218687
+sample estimates:
+Sorensen dissimilarity 
+             0.1975737 
+attr(,"se")
+standard error 
+      0.012836 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 0.23449, p-value = 0.5927
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.4840229
+sample estimates:
+Sorensen dissimilarity 
+             0.4493827 
+attr(,"se")
+standard error 
+    0.02105971 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -9.7794, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.3164944
+sample estimates:
+Sorensen dissimilarity 
+             0.2906221 
+attr(,"se")
+standard error 
+    0.01572923 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -11.942, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2861913
+sample estimates:
+Sorensen dissimilarity 
+             0.2609117 
+attr(,"se")
+standard error 
+    0.01536888 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -17.398, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2304819
+sample estimates:
+Sorensen dissimilarity 
+             0.2081406 
+attr(,"se")
+standard error 
+    0.01358254 
+
+
+
+attr(,"class")
+[1] "equivSDhtestList" "list"            
+
+$BP$`level 5`
+$GOBP_IMMUNE_RESPONSE
+$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 0.70024, p-value = 0.7581
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.4733828
+sample estimates:
+Sorensen dissimilarity 
+             0.4530854 
+attr(,"se")
+standard error 
+    0.01233998 
+
+
+
+$GOBP_TISSUE_DEVELOPMENT
+$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -27.994, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.227272
+sample estimates:
+Sorensen dissimilarity 
+              0.213715 
+attr(,"se")
+standard error 
+   0.008242047 
+
+
+$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 9.5072, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.5941827
+sample estimates:
+Sorensen dissimilarity 
+             0.5720974 
+attr(,"se")
+standard error 
+    0.01342691 
+
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -26.313, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2338278
+sample estimates:
+Sorensen dissimilarity 
+              0.219784 
+attr(,"se")
+standard error 
+   0.008537966 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 5.1121, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.537342
+sample estimates:
+Sorensen dissimilarity 
+             0.5147279 
+attr(,"se")
+standard error 
+    0.01374838 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -25.451, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2330815
+sample estimates:
+Sorensen dissimilarity 
+             0.2184778 
+attr(,"se")
+standard error 
+   0.008878385 
+
+
+
+$GOBP_PHOSPHORYLATION
+$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -40.066, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.1720596
+sample estimates:
+Sorensen dissimilarity 
+             0.1603986 
+attr(,"se")
+standard error 
+   0.007089421 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -0.35042, p-value = 0.363
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.4607303
+sample estimates:
+Sorensen dissimilarity 
+             0.4400357 
+attr(,"se")
+standard error 
+    0.01258145 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -20.903, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2693784
+sample estimates:
+Sorensen dissimilarity 
+             0.2544255 
+attr(,"se")
+standard error 
+   0.009090691 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -17.693, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2901911
+sample estimates:
+Sorensen dissimilarity 
+             0.2743814 
+attr(,"se")
+standard error 
+   0.009611627 
+
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -28.284, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2218718
+sample estimates:
+Sorensen dissimilarity 
+             0.2081289 
+attr(,"se")
+standard error 
+   0.008355051 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.6092, p-value = 0.9462
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.4885673
+sample estimates:
+Sorensen dissimilarity 
+             0.4662638 
+attr(,"se")
+standard error 
+    0.01355954 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -11.378, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.3420059
+sample estimates:
+Sorensen dissimilarity 
+             0.3246951 
+attr(,"se")
+standard error 
+    0.01052419 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -18.304, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2792566
+sample estimates:
+Sorensen dissimilarity 
+             0.2629466 
+attr(,"se")
+standard error 
+   0.009915782 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -20.97, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2653362
+sample estimates:
+Sorensen dissimilarity 
+             0.2500915 
+attr(,"se")
+standard error 
+   0.009268105 
+
+
+
+attr(,"class")
+[1] "equivSDhtestList" "list"            
+
+$BP$`level 6`
+$GOBP_IMMUNE_RESPONSE
+$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.306, p-value = 0.9042
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.474628
+sample estimates:
+Sorensen dissimilarity 
+             0.4578035 
+attr(,"se")
+standard error 
+    0.01022858 
+
+
+
+$GOBP_TISSUE_DEVELOPMENT
+$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -28.821, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2492726
+sample estimates:
+Sorensen dissimilarity 
+             0.2374597 
+attr(,"se")
+standard error 
+   0.007181709 
+
+
+$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 12.261, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6001795
+sample estimates:
+Sorensen dissimilarity 
+              0.581759 
+attr(,"se")
+standard error 
+     0.0111989 
+
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -26.764, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2574977
+sample estimates:
+Sorensen dissimilarity 
+             0.2452558 
+attr(,"se")
+standard error 
+    0.00744251 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 6.9379, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.5429521
+sample estimates:
+Sorensen dissimilarity 
+             0.5240734 
+attr(,"se")
+standard error 
+    0.01147742 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -25.129, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2601887
+sample estimates:
+Sorensen dissimilarity 
+             0.2472833 
+attr(,"se")
+standard error 
+   0.007845934 
+
+
+
+$GOBP_PHOSPHORYLATION
+$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -44.793, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.1831712
+sample estimates:
+Sorensen dissimilarity 
+             0.1732112 
+attr(,"se")
+standard error 
+   0.006055246 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 0.51591, p-value = 0.697
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.4669528
+sample estimates:
+Sorensen dissimilarity 
+             0.4498186 
+attr(,"se")
+standard error 
+    0.01041685 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -22.278, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2845626
+sample estimates:
+Sorensen dissimilarity 
+             0.2718169 
+attr(,"se")
+standard error 
+   0.007748864 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -17.516, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.3134965
+sample estimates:
+Sorensen dissimilarity 
+             0.2999252 
+attr(,"se")
+standard error 
+   0.008250777 
+
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -31.32, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2340182
+sample estimates:
+Sorensen dissimilarity 
+             0.2223543 
+attr(,"se")
+standard error 
+   0.007091102 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 2.7778, p-value = 0.9973
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.4940307
+sample estimates:
+Sorensen dissimilarity 
+             0.4755889 
+attr(,"se")
+standard error 
+     0.0112118 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -10.725, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.363098
+sample estimates:
+Sorensen dissimilarity 
+             0.3483617 
+attr(,"se")
+standard error 
+   0.008958987 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -18.899, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2980929
+sample estimates:
+Sorensen dissimilarity 
+              0.284141 
+attr(,"se")
+standard error 
+   0.008482175 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -23.053, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2775642
+sample estimates:
+Sorensen dissimilarity 
+             0.2647422 
+attr(,"se")
+standard error 
+   0.007795228 
+
+
+
+attr(,"class")
+[1] "equivSDhtestList" "list"            
+
+$BP$`level 7`
+$GOBP_IMMUNE_RESPONSE
+$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.1822, p-value = 0.8814
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.4726801
+sample estimates:
+Sorensen dissimilarity 
+             0.4562517 
+attr(,"se")
+standard error 
+   0.009987748 
+
+
+
+$GOBP_TISSUE_DEVELOPMENT
+$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -26.496, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2639567
+sample estimates:
+Sorensen dissimilarity 
+             0.2520107 
+attr(,"se")
+standard error 
+   0.007262626 
+
+
+$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 13.012, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6057653
+sample estimates:
+Sorensen dissimilarity 
+             0.5876613 
+attr(,"se")
+standard error 
+    0.01100644 
+
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -23.921, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2768194
+sample estimates:
+Sorensen dissimilarity 
+             0.2644419 
+attr(,"se")
+standard error 
+   0.007525013 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 7.5207, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.5469595
+sample estimates:
+Sorensen dissimilarity 
+              0.528562 
+attr(,"se")
+standard error 
+    0.01118485 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -20.238, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2931957
+sample estimates:
+Sorensen dissimilarity 
+             0.2798153 
+attr(,"se")
+standard error 
+   0.008134704 
+
+
+
+$GOBP_PHOSPHORYLATION
+$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -43.39, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.1914814
+sample estimates:
+Sorensen dissimilarity 
+              0.181514 
+attr(,"se")
+standard error 
+   0.006059715 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 0.70635, p-value = 0.76
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.4683366
+sample estimates:
+Sorensen dissimilarity 
+             0.4516222 
+attr(,"se")
+standard error 
+    0.01016163 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -20.651, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2969014
+sample estimates:
+Sorensen dissimilarity 
+             0.2841328 
+attr(,"se")
+standard error 
+   0.007762744 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -15.273, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.3320015
+sample estimates:
+Sorensen dissimilarity 
+             0.3184304 
+attr(,"se")
+standard error 
+   0.008250615 
+
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -28.361, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2526697
+sample estimates:
+Sorensen dissimilarity 
+             0.2408627 
+attr(,"se")
+standard error 
+   0.007178162 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 3.7565, p-value = 0.9999
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.5034943
+sample estimates:
+Sorensen dissimilarity 
+             0.4855119 
+attr(,"se")
+standard error 
+    0.01093249 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -7.1518, p-value = 4.281e-13
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.3945454
+sample estimates:
+Sorensen dissimilarity 
+             0.3796413 
+attr(,"se")
+standard error 
+    0.00906104 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -17.042, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.3143192
+sample estimates:
+Sorensen dissimilarity 
+              0.300418 
+attr(,"se")
+standard error 
+    0.00845133 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -21.107, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2929878
+sample estimates:
+Sorensen dissimilarity 
+             0.2801876 
+attr(,"se")
+standard error 
+   0.007781995 
+
+
+
+attr(,"class")
+[1] "equivSDhtestList" "list"            
+
+$BP$`level 8`
+$GOBP_IMMUNE_RESPONSE
+$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.6432, p-value = 0.9498
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.4798782
+sample estimates:
+Sorensen dissimilarity 
+             0.4621527 
+attr(,"se")
+standard error 
+    0.01077636 
+
+
+
+$GOBP_TISSUE_DEVELOPMENT
+$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -22.38, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2782355
+sample estimates:
+Sorensen dissimilarity 
+             0.2650508 
+attr(,"se")
+standard error 
+   0.008015688 
+
+
+$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 13.265, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6210958
+sample estimates:
+Sorensen dissimilarity 
+             0.6016082 
+attr(,"se")
+standard error 
+    0.01184762 
+
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -20.539, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2896468
+sample estimates:
+Sorensen dissimilarity 
+             0.2761704 
+attr(,"se")
+standard error 
+    0.00819303 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 8.164, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.5612361
+sample estimates:
+Sorensen dissimilarity 
+             0.5416512 
+attr(,"se")
+standard error 
+    0.01190674 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -17.127, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.3072129
+sample estimates:
+Sorensen dissimilarity 
+             0.2926328 
+attr(,"se")
+standard error 
+   0.008864089 
+
+
+
+$GOBP_PHOSPHORYLATION
+$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -37.51, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.204066
+sample estimates:
+Sorensen dissimilarity 
+             0.1930418 
+attr(,"se")
+standard error 
+   0.006702229 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.4389, p-value = 0.9249
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.4781483
+sample estimates:
+Sorensen dissimilarity 
+             0.4601712 
+attr(,"se")
+standard error 
+    0.01092933 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -16.29, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.3186192
+sample estimates:
+Sorensen dissimilarity 
+             0.3044872 
+attr(,"se")
+standard error 
+   0.008591678 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -11.867, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.352605
+sample estimates:
+Sorensen dissimilarity 
+             0.3378269 
+attr(,"se")
+standard error 
+    0.00898446 
+
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -23.378, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2710514
+sample estimates:
+Sorensen dissimilarity 
+             0.2579281 
+attr(,"se")
+standard error 
+   0.007978402 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 4.3729, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.5155114
+sample estimates:
+Sorensen dissimilarity 
+             0.4960865 
+attr(,"se")
+standard error 
+    0.01180954 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -3.871, p-value = 5.42e-05
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.4221773
+sample estimates:
+Sorensen dissimilarity 
+             0.4057244 
+attr(,"se")
+standard error 
+    0.01000265 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -14.165, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.00000 0.32937
+sample estimates:
+Sorensen dissimilarity 
+             0.3142516 
+attr(,"se")
+standard error 
+   0.009191311 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -17.029, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.3124098
+sample estimates:
+Sorensen dissimilarity 
+             0.2982931 
+attr(,"se")
+standard error 
+   0.008582316 
+
+
+
+attr(,"class")
+[1] "equivSDhtestList" "list"            
+
+$BP$`level 9`
+$GOBP_IMMUNE_RESPONSE
+$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 2.3952, p-value = 0.9917
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.4948929
+sample estimates:
+Sorensen dissimilarity 
+             0.4743535 
+attr(,"se")
+standard error 
+    0.01248705 
+
+
+
+$GOBP_TISSUE_DEVELOPMENT
+$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -17.644, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2939572
+sample estimates:
+Sorensen dissimilarity 
+             0.2784854 
+attr(,"se")
+standard error 
+   0.009406229 
+
+
+$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 12.687, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6405247
+sample estimates:
+Sorensen dissimilarity 
+             0.6180215 
+attr(,"se")
+standard error 
+    0.01368097 
+
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -15.76, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.3096996
+sample estimates:
+Sorensen dissimilarity 
+              0.293998 
+attr(,"se")
+standard error 
+   0.009545933 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 8.8547, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.5870592
+sample estimates:
+Sorensen dissimilarity 
+             0.5647172 
+attr(,"se")
+standard error 
+    0.01358298 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -14.339, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.3153584
+sample estimates:
+Sorensen dissimilarity 
+             0.2986322 
+attr(,"se")
+standard error 
+    0.01016877 
+
+
+
+$GOBP_PHOSPHORYLATION
+$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -30.6, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.216733
+sample estimates:
+Sorensen dissimilarity 
+             0.2037975 
+attr(,"se")
+standard error 
+   0.007864272 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 2.6148, p-value = 0.9955
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.4984236
+sample estimates:
+Sorensen dissimilarity 
+             0.4775795 
+attr(,"se")
+standard error 
+    0.01267231 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -12.489, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.3355473
+sample estimates:
+Sorensen dissimilarity 
+             0.3190292 
+attr(,"se")
+standard error 
+    0.01004232 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -8.9138, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.3692779
+sample estimates:
+Sorensen dissimilarity 
+             0.3522688 
+attr(,"se")
+standard error 
+    0.01034079 
+
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -17.755, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2926415
+sample estimates:
+Sorensen dissimilarity 
+             0.2771419 
+attr(,"se")
+standard error 
+   0.009423079 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 5.3554, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.5403589
+sample estimates:
+Sorensen dissimilarity 
+             0.5178218 
+attr(,"se")
+standard error 
+    0.01370157 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -1.7551, p-value = 0.03962
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.4431606
+sample estimates:
+Sorensen dissimilarity 
+             0.4240062 
+attr(,"se")
+standard error 
+    0.01164505 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -10.103, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.3539891
+sample estimates:
+Sorensen dissimilarity 
+             0.3363985 
+attr(,"se")
+standard error 
+    0.01069431 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -12.399, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.00000 0.33598
+sample estimates:
+Sorensen dissimilarity 
+             0.3193903 
+attr(,"se")
+standard error 
+    0.01008583 
+
+
+
+attr(,"class")
+[1] "equivSDhtestList" "list"            
+
+$BP$`level 10`
+$GOBP_IMMUNE_RESPONSE
+$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 3.2332, p-value = 0.9994
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.5208431
+sample estimates:
+Sorensen dissimilarity 
+              0.495082 
+attr(,"se")
+standard error 
+    0.01566164 
+
+
+
+$GOBP_TISSUE_DEVELOPMENT
+$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -14.319, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2983421
+sample estimates:
+Sorensen dissimilarity 
+             0.2793814 
+attr(,"se")
+standard error 
+    0.01152725 
+
+
+$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 10.664, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6523098
+sample estimates:
+Sorensen dissimilarity 
+             0.6245325 
+attr(,"se")
+standard error 
+    0.01688738 
+
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -12.142, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.3211742
+sample estimates:
+Sorensen dissimilarity 
+             0.3018584 
+attr(,"se")
+standard error 
+    0.01174322 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 8.4387, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6124141
+sample estimates:
+Sorensen dissimilarity 
+             0.5850144 
+attr(,"se")
+standard error 
+    0.01665786 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -11.944, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.3180268
+sample estimates:
+Sorensen dissimilarity 
+             0.2978369 
+attr(,"se")
+standard error 
+    0.01227457 
+
+
+
+$GOBP_PHOSPHORYLATION
+$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -22.907, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.2331553
+sample estimates:
+Sorensen dissimilarity 
+             0.2168099 
+attr(,"se")
+standard error 
+   0.009937262 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 3.8124, p-value = 0.9999
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.00000 0.53117
+sample estimates:
+Sorensen dissimilarity 
+             0.5050302 
+attr(,"se")
+standard error 
+    0.01589189 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -9.8359, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.3434673
+sample estimates:
+Sorensen dissimilarity 
+             0.3231899 
+attr(,"se")
+standard error 
+    0.01232776 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -6.4758, p-value = 4.716e-11
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.3831567
+sample estimates:
+Sorensen dissimilarity 
+             0.3622892 
+attr(,"se")
+standard error 
+     0.0126865 
+
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -13.68, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.3040151
+sample estimates:
+Sorensen dissimilarity 
+             0.2848233 
+attr(,"se")
+standard error 
+    0.01166781 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 6.0355, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.5753472
+sample estimates:
+Sorensen dissimilarity 
+             0.5473126 
+attr(,"se")
+standard error 
+    0.01704383 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -1.0358, p-value = 0.1501
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.4531006
+sample estimates:
+Sorensen dissimilarity 
+             0.4297235 
+attr(,"se")
+standard error 
+    0.01421227 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -7.1286, p-value = 5.068e-13
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.3724592
+sample estimates:
+Sorensen dissimilarity 
+             0.3508674 
+attr(,"se")
+standard error 
+     0.0131269 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -8.5867, p-value < 2.2e-16
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.3571841
+sample estimates:
+Sorensen dissimilarity 
+             0.3365079 
+attr(,"se")
+standard error 
+    0.01257021 
+
+
+
+attr(,"class")
+[1] "equivSDhtestList" "list"            
+
+
+$CC
+$CC$`level 3`
+$GOBP_IMMUNE_RESPONSE
+$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.525, p-value = 0.9364
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.8293637
+sample estimates:
+Sorensen dissimilarity 
+             0.6296296 
+attr(,"se")
+standard error 
+     0.1214297 
+
+
+
+$GOBP_TISSUE_DEVELOPMENT
+$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 2.0765, p-value = 0.9811
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7637998
+sample estimates:
+Sorensen dissimilarity 
+             0.6226415 
+attr(,"se")
+standard error 
+    0.08581813 
+
+
+$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 5.8625, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.9812501
+sample estimates:
+Sorensen dissimilarity 
+             0.8636364 
+attr(,"se")
+standard error 
+     0.0715041 
+
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.3757, p-value = 0.9155
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.8197747
+sample estimates:
+Sorensen dissimilarity 
+             0.6153846 
+attr(,"se")
+standard error 
+     0.1242604 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+
+	No test performed due not finite (d - d0) / se statistic
+
+data:  tab
+(d - d0) / se = Inf, p-value = NA
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+   0 NaN
+sample estimates:
+Sorensen dissimilarity 
+                     1 
+attr(,"se")
+standard error 
+             0 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 5.6994, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.9805282
+sample estimates:
+Sorensen dissimilarity 
+             0.8604651 
+attr(,"se")
+standard error 
+    0.07299318 
+
+
+
+$GOBP_PHOSPHORYLATION
+$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -0.47619, p-value = 0.317
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.5535197
+sample estimates:
+Sorensen dissimilarity 
+                   0.4 
+attr(,"se")
+standard error 
+    0.09333333 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 3.7274, p-value = 0.9999
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.9662015
+sample estimates:
+Sorensen dissimilarity 
+             0.8064516 
+attr(,"se")
+standard error 
+    0.09712105 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 2.4944, p-value = 0.9937
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7840897
+sample estimates:
+Sorensen dissimilarity 
+             0.6491228 
+attr(,"se")
+standard error 
+    0.08205406 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 3.561, p-value = 0.9998
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.9642321
+sample estimates:
+Sorensen dissimilarity 
+                   0.8 
+attr(,"se")
+standard error 
+    0.09984604 
+
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -0.24042, p-value = 0.405
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.5810908
+sample estimates:
+Sorensen dissimilarity 
+             0.4210526 
+attr(,"se")
+standard error 
+    0.09729628 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 4.6902, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0 1
+sample estimates:
+Sorensen dissimilarity 
+              0.862069 
+attr(,"se")
+standard error 
+    0.08904224 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 3.8383, p-value = 0.9999
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.8744472
+sample estimates:
+Sorensen dissimilarity 
+             0.7454545 
+attr(,"se")
+standard error 
+    0.07842199 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 0.46849, p-value = 0.6803
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6950556
+sample estimates:
+Sorensen dissimilarity 
+                   0.5 
+attr(,"se")
+standard error 
+     0.1185854 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.3063, p-value = 0.9043
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7313197
+sample estimates:
+Sorensen dissimilarity 
+             0.5714286 
+attr(,"se")
+standard error 
+    0.09720693 
+
+
+
+attr(,"class")
+[1] "equivSDhtestList" "list"            
+
+$CC$`level 4`
+$GOBP_IMMUNE_RESPONSE
+$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 3.1616, p-value = 0.9992
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.838587
+sample estimates:
+Sorensen dissimilarity 
+             0.7037037 
+attr(,"se")
+standard error 
+    0.08200321 
+
+
+
+$GOBP_TISSUE_DEVELOPMENT
+$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.3391, p-value = 0.9097
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6497674
+sample estimates:
+Sorensen dissimilarity 
+             0.5365854 
+attr(,"se")
+standard error 
+    0.06880977 
+
+
+$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 6.1698, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.943819
+sample estimates:
+Sorensen dissimilarity 
+             0.8387097 
+attr(,"se")
+standard error 
+    0.06390195 
+
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 2.4221, p-value = 0.9923
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7314704
+sample estimates:
+Sorensen dissimilarity 
+             0.6153846 
+attr(,"se")
+standard error 
+    0.07057514 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 10.43, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0 1
+sample estimates:
+Sorensen dissimilarity 
+             0.9310345 
+attr(,"se")
+standard error 
+     0.0466544 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 8.1117, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.9448235
+sample estimates:
+Sorensen dissimilarity 
+             0.8604651 
+attr(,"se")
+standard error 
+    0.05128626 
+
+
+
+$GOBP_PHOSPHORYLATION
+$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -0.45587, p-value = 0.3242
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.5255871
+sample estimates:
+Sorensen dissimilarity 
+             0.4133333 
+attr(,"se")
+standard error 
+    0.06824547 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 3.2701, p-value = 0.9995
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.8422063
+sample estimates:
+Sorensen dissimilarity 
+             0.7090909 
+attr(,"se")
+standard error 
+    0.08092838 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 2.1273, p-value = 0.9833
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7031879
+sample estimates:
+Sorensen dissimilarity 
+             0.5903614 
+attr(,"se")
+standard error 
+     0.0685936 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 3.7079, p-value = 0.9999
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.8078832
+sample estimates:
+Sorensen dissimilarity 
+             0.6962025 
+attr(,"se")
+standard error 
+      0.067897 
+
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.2186, p-value = 0.8885
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6219876
+sample estimates:
+Sorensen dissimilarity 
+                  0.52 
+attr(,"se")
+standard error 
+    0.06200408 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 7.4182, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.9399244
+sample estimates:
+Sorensen dissimilarity 
+                  0.85 
+attr(,"se")
+standard error 
+    0.05467017 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 6.2167, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.8659739
+sample estimates:
+Sorensen dissimilarity 
+             0.7777778 
+attr(,"se")
+standard error 
+    0.05361943 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -0.70727, p-value = 0.2397
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.4982637
+sample estimates:
+Sorensen dissimilarity 
+             0.4038462 
+attr(,"se")
+standard error 
+    0.05740179 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.9308, p-value = 0.9732
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6665075
+sample estimates:
+Sorensen dissimilarity 
+             0.5643564 
+attr(,"se")
+standard error 
+    0.06210346 
+
+
+
+attr(,"class")
+[1] "equivSDhtestList" "list"            
+
+$CC$`level 5`
+$GOBP_IMMUNE_RESPONSE
+$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 2.668, p-value = 0.9962
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7156965
+sample estimates:
+Sorensen dissimilarity 
+             0.6122449 
+attr(,"se")
+standard error 
+    0.06289412 
+
+
+
+$GOBP_TISSUE_DEVELOPMENT
+$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.8516, p-value = 0.968
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6582947
+sample estimates:
+Sorensen dissimilarity 
+             0.5576923 
+attr(,"se")
+standard error 
+    0.06116194 
+
+
+$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 4.4893, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.8131543
+sample estimates:
+Sorensen dissimilarity 
+             0.7142857 
+attr(,"se")
+standard error 
+    0.06010784 
+
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 4.6612, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.8257825
+sample estimates:
+Sorensen dissimilarity 
+             0.7263158 
+attr(,"se")
+standard error 
+    0.06047145 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 16.533, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0 1
+sample estimates:
+Sorensen dissimilarity 
+             0.9550562 
+attr(,"se")
+standard error 
+    0.03088478 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 14.1, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.9942845
+sample estimates:
+Sorensen dissimilarity 
+             0.9368421 
+attr(,"se")
+standard error 
+    0.03492252 
+
+
+
+$GOBP_PHOSPHORYLATION
+$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -0.42172, p-value = 0.3366
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.5122884
+sample estimates:
+Sorensen dissimilarity 
+             0.4210526 
+attr(,"se")
+standard error 
+    0.05546741 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 2.4684, p-value = 0.9932
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6913114
+sample estimates:
+Sorensen dissimilarity 
+             0.5925926 
+attr(,"se")
+standard error 
+     0.0600168 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -0.10427, p-value = 0.4585
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.5308491
+sample estimates:
+Sorensen dissimilarity 
+             0.4385965 
+attr(,"se")
+standard error 
+    0.05608563 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 7.0448, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.8947647
+sample estimates:
+Sorensen dissimilarity 
+             0.8095238 
+attr(,"se")
+standard error 
+    0.05182276 
+
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.7249, p-value = 0.9577
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6281141
+sample estimates:
+Sorensen dissimilarity 
+             0.5384615 
+attr(,"se")
+standard error 
+    0.05450487 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 6.5632, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.8568341
+sample estimates:
+Sorensen dissimilarity 
+             0.7741935 
+attr(,"se")
+standard error 
+    0.05024186 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 7.5218, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.8777528
+sample estimates:
+Sorensen dissimilarity 
+                   0.8 
+attr(,"se")
+standard error 
+    0.04727032 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.0648, p-value = 0.8565
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.5963325
+sample estimates:
+Sorensen dissimilarity 
+             0.5041322 
+attr(,"se")
+standard error 
+    0.05605378 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 2.1414, p-value = 0.9839
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6437082
+sample estimates:
+Sorensen dissimilarity 
+             0.5571429 
+attr(,"se")
+standard error 
+    0.05262798 
+
+
+
+attr(,"class")
+[1] "equivSDhtestList" "list"            
+
+$CC$`level 6`
+$GOBP_IMMUNE_RESPONSE
+$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 3.3536, p-value = 0.9996
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.755381
+sample estimates:
+Sorensen dissimilarity 
+             0.6530612 
+attr(,"se")
+standard error 
+    0.06220601 
+
+
+
+$GOBP_TISSUE_DEVELOPMENT
+$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 3.9741, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7764271
+sample estimates:
+Sorensen dissimilarity 
+             0.6792453 
+attr(,"se")
+standard error 
+    0.05908233 
+
+
+$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 7.6806, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.9021622
+sample estimates:
+Sorensen dissimilarity 
+             0.8214286 
+attr(,"se")
+standard error 
+    0.04908258 
+
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 5.6661, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.8847832
+sample estimates:
+Sorensen dissimilarity 
+             0.7857143 
+attr(,"se")
+standard error 
+    0.06022961 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+
+	No test performed due not finite (d - d0) / se statistic
+
+data:  tab
+(d - d0) / se = Inf, p-value = NA
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+   0 NaN
+sample estimates:
+Sorensen dissimilarity 
+                     1 
+attr(,"se")
+standard error 
+             0 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 14.582, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.9945351
+sample estimates:
+Sorensen dissimilarity 
+             0.9387755 
+attr(,"se")
+standard error 
+     0.0338994 
+
+
+
+$GOBP_PHOSPHORYLATION
+$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 0.91924, p-value = 0.821
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.5994096
+sample estimates:
+Sorensen dissimilarity 
+                   0.5 
+attr(,"se")
+standard error 
+    0.06043672 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 3.5828, p-value = 0.9998
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7510027
+sample estimates:
+Sorensen dissimilarity 
+             0.6545455 
+attr(,"se")
+standard error 
+    0.05864187 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 2.0019, p-value = 0.9774
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6537105
+sample estimates:
+Sorensen dissimilarity 
+              0.559322 
+attr(,"se")
+standard error 
+    0.05738412 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 6.8232, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.9012265
+sample estimates:
+Sorensen dissimilarity 
+                0.8125 
+attr(,"se")
+standard error 
+    0.05394188 
+
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 0.98827, p-value = 0.8385
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.5924652
+sample estimates:
+Sorensen dissimilarity 
+                   0.5 
+attr(,"se")
+standard error 
+    0.05621488 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 7.2003, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.873424
+sample estimates:
+Sorensen dissimilarity 
+             0.7936508 
+attr(,"se")
+standard error 
+    0.04849869 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 8.9897, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.9074316
+sample estimates:
+Sorensen dissimilarity 
+             0.8358209 
+attr(,"se")
+standard error 
+    0.04353624 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 0.65187, p-value = 0.7428
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.5772665
+sample estimates:
+Sorensen dissimilarity 
+             0.4821429 
+attr(,"se")
+standard error 
+    0.05783104 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 3.2728, p-value = 0.9995
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7100539
+sample estimates:
+Sorensen dissimilarity 
+             0.6212121 
+attr(,"se")
+standard error 
+    0.05401196 
+
+
+
+attr(,"class")
+[1] "equivSDhtestList" "list"            
+
+$CC$`level 7`
+$GOBP_IMMUNE_RESPONSE
+$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 5.86, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.8878873
+sample estimates:
+Sorensen dissimilarity 
+             0.7906977 
+attr(,"se")
+standard error 
+    0.05908711 
+
+
+
+$GOBP_TISSUE_DEVELOPMENT
+$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 3.725, p-value = 0.9999
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7991172
+sample estimates:
+Sorensen dissimilarity 
+             0.6904762 
+attr(,"se")
+standard error 
+    0.06604903 
+
+
+$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 10.708, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.9676251
+sample estimates:
+Sorensen dissimilarity 
+             0.8979592 
+attr(,"se")
+standard error 
+    0.04235388 
+
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 3.0007, p-value = 0.9987
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.805127
+sample estimates:
+Sorensen dissimilarity 
+             0.6774194 
+attr(,"se")
+standard error 
+    0.07764071 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 20.379, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0 1
+sample estimates:
+Sorensen dissimilarity 
+             0.9736842 
+attr(,"se")
+standard error 
+    0.02596953 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 8.9475, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.9741482
+sample estimates:
+Sorensen dissimilarity 
+             0.8918919 
+attr(,"se")
+standard error 
+    0.05000829 
+
+
+
+$GOBP_PHOSPHORYLATION
+$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.8618, p-value = 0.9687
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6836156
+sample estimates:
+Sorensen dissimilarity 
+             0.5714286 
+attr(,"se")
+standard error 
+     0.0682049 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 3.7145, p-value = 0.9999
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7748858
+sample estimates:
+Sorensen dissimilarity 
+             0.6734694 
+attr(,"se")
+standard error 
+    0.06165682 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 3.5553, p-value = 0.9998
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7694781
+sample estimates:
+Sorensen dissimilarity 
+             0.6666667 
+attr(,"se")
+standard error 
+    0.06250488 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 4.1688, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.842294
+sample estimates:
+Sorensen dissimilarity 
+             0.7297297 
+attr(,"se")
+standard error 
+    0.06843419 
+
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 0.55598, p-value = 0.7109
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.5818909
+sample estimates:
+Sorensen dissimilarity 
+             0.4791667 
+attr(,"se")
+standard error 
+    0.06245192 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 8.1586, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.9153784
+sample estimates:
+Sorensen dissimilarity 
+             0.8363636 
+attr(,"se")
+standard error 
+    0.04803759 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 7.9685, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.9136072
+sample estimates:
+Sorensen dissimilarity 
+             0.8333333 
+attr(,"se")
+standard error 
+    0.04880307 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 0.66276, p-value = 0.7463
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.5973921
+sample estimates:
+Sorensen dissimilarity 
+             0.4883721 
+attr(,"se")
+standard error 
+    0.06627943 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 3.1041, p-value = 0.999
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7277597
+sample estimates:
+Sorensen dissimilarity 
+             0.6296296 
+attr(,"se")
+standard error 
+    0.05965886 
+
+
+
+attr(,"class")
+[1] "equivSDhtestList" "list"            
+
+$CC$`level 8`
+$GOBP_IMMUNE_RESPONSE
+$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 5.3897, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.9047272
+sample estimates:
+Sorensen dissimilarity 
+             0.7971014 
+attr(,"se")
+standard error 
+    0.06543181 
+
+
+
+$GOBP_TISSUE_DEVELOPMENT
+$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.9075, p-value = 0.9718
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7224996
+sample estimates:
+Sorensen dissimilarity 
+               0.59375 
+attr(,"se")
+standard error 
+    0.07827421 
+
+
+$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 7.5641, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.954034
+sample estimates:
+Sorensen dissimilarity 
+             0.8630137 
+attr(,"se")
+standard error 
+    0.05533642 
+
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.894, p-value = 0.9709
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7131143
+sample estimates:
+Sorensen dissimilarity 
+             0.5882353 
+attr(,"se")
+standard error 
+    0.07592102 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+
+	No test performed due not finite (d - d0) / se statistic
+
+data:  tab
+(d - d0) / se = Inf, p-value = NA
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+   0 NaN
+sample estimates:
+Sorensen dissimilarity 
+                     1 
+attr(,"se")
+standard error 
+             0 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 6.4897, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.9319002
+sample estimates:
+Sorensen dissimilarity 
+             0.8333333 
+attr(,"se")
+standard error 
+    0.05992437 
+
+
+
+$GOBP_PHOSPHORYLATION
+$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 2.5499, p-value = 0.9946
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7746361
+sample estimates:
+Sorensen dissimilarity 
+             0.6451613 
+attr(,"se")
+standard error 
+    0.07871511 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 3.4148, p-value = 0.9997
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.8084886
+sample estimates:
+Sorensen dissimilarity 
+             0.6901408 
+attr(,"se")
+standard error 
+    0.07195035 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 4.4388, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.873611
+sample estimates:
+Sorensen dissimilarity 
+             0.7575758 
+attr(,"se")
+standard error 
+    0.07054442 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 3.3206, p-value = 0.9996
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.8052276
+sample estimates:
+Sorensen dissimilarity 
+             0.6857143 
+attr(,"se")
+standard error 
+    0.07265891 
+
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 0.53011, p-value = 0.702
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.5831873
+sample estimates:
+Sorensen dissimilarity 
+             0.4782609 
+attr(,"se")
+standard error 
+    0.06379077 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 8.0115, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.9231218
+sample estimates:
+Sorensen dissimilarity 
+             0.8415842 
+attr(,"se")
+standard error 
+    0.04957135 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 6.2219, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.8834599
+sample estimates:
+Sorensen dissimilarity 
+             0.7916667 
+attr(,"se")
+standard error 
+    0.05580631 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -0.074093, p-value = 0.4705
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.5386656
+sample estimates:
+Sorensen dissimilarity 
+                  0.44 
+attr(,"se")
+standard error 
+    0.05998445 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 2.3504, p-value = 0.9906
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7016256
+sample estimates:
+Sorensen dissimilarity 
+             0.5957447 
+attr(,"se")
+standard error 
+    0.06437104 
+
+
+
+attr(,"class")
+[1] "equivSDhtestList" "list"            
+
+$CC$`level 9`
+$GOBP_IMMUNE_RESPONSE
+$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 4.3977, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.887186
+sample estimates:
+Sorensen dissimilarity 
+             0.7666667 
+attr(,"se")
+standard error 
+    0.07327058 
+
+
+
+$GOBP_TISSUE_DEVELOPMENT
+$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 4.2759, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.9435303
+sample estimates:
+Sorensen dissimilarity 
+              0.804878 
+attr(,"se")
+standard error 
+    0.08429459 
+
+
+$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 9.8382, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0 1
+sample estimates:
+Sorensen dissimilarity 
+             0.9272727 
+attr(,"se")
+standard error 
+     0.0490771 
+
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 2.4144, p-value = 0.9921
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.757706
+sample estimates:
+Sorensen dissimilarity 
+             0.6307692 
+attr(,"se")
+standard error 
+    0.07717205 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+
+	No test performed due not finite (d - d0) / se statistic
+
+data:  tab
+(d - d0) / se = Inf, p-value = NA
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+   0 NaN
+sample estimates:
+Sorensen dissimilarity 
+                     1 
+attr(,"se")
+standard error 
+             0 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 8.4582, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.9885917
+sample estimates:
+Sorensen dissimilarity 
+                   0.9 
+attr(,"se")
+standard error 
+    0.05385994 
+
+
+
+$GOBP_PHOSPHORYLATION
+$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 2.2219, p-value = 0.9869
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7847663
+sample estimates:
+Sorensen dissimilarity 
+                  0.64 
+attr(,"se")
+standard error 
+    0.08801164 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 2.7458, p-value = 0.997
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7831298
+sample estimates:
+Sorensen dissimilarity 
+               0.65625 
+attr(,"se")
+standard error 
+    0.07713744 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 6.0254, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.9819277
+sample estimates:
+Sorensen dissimilarity 
+             0.8666667 
+attr(,"se")
+standard error 
+    0.07007373 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 4.1918, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.8547658
+sample estimates:
+Sorensen dissimilarity 
+             0.7391304 
+attr(,"se")
+standard error 
+    0.07030131 
+
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 2.4472, p-value = 0.9928
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.740708
+sample estimates:
+Sorensen dissimilarity 
+             0.6216216 
+attr(,"se")
+standard error 
+    0.07239936 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 9.4531, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.9632582
+sample estimates:
+Sorensen dissimilarity 
+             0.8863636 
+attr(,"se")
+standard error 
+    0.04674855 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 12.597, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0 1
+sample estimates:
+Sorensen dissimilarity 
+              0.942029 
+attr(,"se")
+standard error 
+    0.03950084 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -1.1464, p-value = 0.1258
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.474053
+sample estimates:
+Sorensen dissimilarity 
+             0.3763441 
+attr(,"se")
+standard error 
+    0.05940279 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 3.2, p-value = 0.9993
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7808926
+sample estimates:
+Sorensen dissimilarity 
+             0.6666667 
+attr(,"se")
+standard error 
+    0.06944444 
+
+
+
+attr(,"class")
+[1] "equivSDhtestList" "list"            
+
+$CC$`level 10`
+$GOBP_IMMUNE_RESPONSE
+$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 5.884, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0 1
+sample estimates:
+Sorensen dissimilarity 
+             0.8857143 
+attr(,"se")
+standard error 
+    0.07499438 
+
+
+
+$GOBP_TISSUE_DEVELOPMENT
+$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.4967, p-value = 0.9328
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.910892
+sample estimates:
+Sorensen dissimilarity 
+             0.6666667 
+attr(,"se")
+standard error 
+     0.1484785 
+
+
+$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 4.2906, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0 1
+sample estimates:
+Sorensen dissimilarity 
+             0.8518519 
+attr(,"se")
+standard error 
+    0.09495455 
+
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 0.53416, p-value = 0.7034
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6710751
+sample estimates:
+Sorensen dissimilarity 
+                   0.5 
+attr(,"se")
+standard error 
+     0.1040063 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+
+	No test performed due not finite (d - d0) / se statistic
+
+data:  tab
+(d - d0) / se = Inf, p-value = NA
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+   0 NaN
+sample estimates:
+Sorensen dissimilarity 
+                     1 
+attr(,"se")
+standard error 
+             0 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 7.0288, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0 1
+sample estimates:
+Sorensen dissimilarity 
+             0.9285714 
+attr(,"se")
+standard error 
+    0.06887755 
+
+
+
+$GOBP_PHOSPHORYLATION
+$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.525, p-value = 0.9364
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.8293637
+sample estimates:
+Sorensen dissimilarity 
+             0.6296296 
+attr(,"se")
+standard error 
+     0.1214297 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.588, p-value = 0.9439
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7837472
+sample estimates:
+Sorensen dissimilarity 
+             0.6111111 
+attr(,"se")
+standard error 
+     0.1049553 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.6775, p-value = 0.9533
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.9193127
+sample estimates:
+Sorensen dissimilarity 
+             0.6842105 
+attr(,"se")
+standard error 
+      0.142932 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 2.2834, p-value = 0.9888
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.8422471
+sample estimates:
+Sorensen dissimilarity 
+             0.6756757 
+attr(,"se")
+standard error 
+     0.1012682 
+
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.5626, p-value = 0.9409
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7637408
+sample estimates:
+Sorensen dissimilarity 
+                   0.6 
+attr(,"se")
+standard error 
+    0.09954736 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 6.6759, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.9842626
+sample estimates:
+Sorensen dissimilarity 
+              0.877551 
+attr(,"se")
+standard error 
+    0.06487603 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 8.1434, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0 1
+sample estimates:
+Sorensen dissimilarity 
+                0.9375 
+attr(,"se")
+standard error 
+    0.06054688 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -1.0509, p-value = 0.1467
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.4921708
+sample estimates:
+Sorensen dissimilarity 
+                  0.36 
+attr(,"se")
+standard error 
+    0.08035413 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.6842, p-value = 0.9539
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7712081
+sample estimates:
+Sorensen dissimilarity 
+             0.6097561 
+attr(,"se")
+standard error 
+    0.09815586 
+
+
+
+attr(,"class")
+[1] "equivSDhtestList" "list"            
+
+
+$MF
+$MF$`level 3`
+$GOBP_IMMUNE_RESPONSE
+$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.2, p-value = 0.8849
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.9712692
+sample estimates:
+Sorensen dissimilarity 
+             0.6666667 
+attr(,"se")
+standard error 
+     0.1851852 
+
+
+
+$GOBP_TISSUE_DEVELOPMENT
+$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.3126, p-value = 0.9053
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.9009647
+sample estimates:
+Sorensen dissimilarity 
+             0.6470588 
+attr(,"se")
+standard error 
+     0.1543638 
+
+
+$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 3.3929, p-value = 0.9997
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0 1
+sample estimates:
+Sorensen dissimilarity 
+             0.8666667 
+attr(,"se")
+standard error 
+     0.1244444 
+
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 2.8287, p-value = 0.9977
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0 1
+sample estimates:
+Sorensen dissimilarity 
+             0.8461538 
+attr(,"se")
+standard error 
+     0.1420118 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+
+	No test performed due not finite (d - d0) / se statistic
+
+data:  tab
+(d - d0) / se = Inf, p-value = NA
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+   0 NaN
+sample estimates:
+Sorensen dissimilarity 
+                     1 
+attr(,"se")
+standard error 
+             0 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+
+	No test performed due not finite (d - d0) / se statistic
+
+data:  tab
+(d - d0) / se = Inf, p-value = NA
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+   0 NaN
+sample estimates:
+Sorensen dissimilarity 
+                     1 
+attr(,"se")
+standard error 
+             0 
+
+
+
+$GOBP_PHOSPHORYLATION
+$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 0.34744, p-value = 0.6359
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.763013
+sample estimates:
+Sorensen dissimilarity 
+                   0.5 
+attr(,"se")
+standard error 
+     0.1599005 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 3.1111, p-value = 0.9991
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0 1
+sample estimates:
+Sorensen dissimilarity 
+             0.8571429 
+attr(,"se")
+standard error 
+     0.1326531 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 0.20262, p-value = 0.5803
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.711047
+sample estimates:
+Sorensen dissimilarity 
+             0.4736842 
+attr(,"se")
+standard error 
+     0.1443063 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 3.3929, p-value = 0.9997
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0 1
+sample estimates:
+Sorensen dissimilarity 
+             0.8666667 
+attr(,"se")
+standard error 
+     0.1244444 
+
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.3126, p-value = 0.9053
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.9009647
+sample estimates:
+Sorensen dissimilarity 
+             0.6470588 
+attr(,"se")
+standard error 
+     0.1543638 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+
+	No test performed due not finite (d - d0) / se statistic
+
+data:  tab
+(d - d0) / se = Inf, p-value = NA
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+   0 NaN
+sample estimates:
+Sorensen dissimilarity 
+                     1 
+attr(,"se")
+standard error 
+             0 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 4.7953, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0 1
+sample estimates:
+Sorensen dissimilarity 
+                   0.9 
+attr(,"se")
+standard error 
+         0.095 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -0.46655, p-value = 0.3204
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6198334
+sample estimates:
+Sorensen dissimilarity 
+                 0.375 
+attr(,"se")
+standard error 
+     0.1488481 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.6775, p-value = 0.9533
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.9193127
+sample estimates:
+Sorensen dissimilarity 
+             0.6842105 
+attr(,"se")
+standard error 
+      0.142932 
+
+
+
+attr(,"class")
+[1] "equivSDhtestList" "list"            
+
+$MF$`level 4`
+$GOBP_IMMUNE_RESPONSE
+$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.7718, p-value = 0.9618
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6632189
+sample estimates:
+Sorensen dissimilarity 
+             0.5578947 
+attr(,"se")
+standard error 
+    0.06403253 
+
+
+
+$GOBP_TISSUE_DEVELOPMENT
+$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -0.71367, p-value = 0.2377
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.4997443
+sample estimates:
+Sorensen dissimilarity 
+             0.4020619 
+attr(,"se")
+standard error 
+    0.05938672 
+
+
+$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 4.1521, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.8211834
+sample estimates:
+Sorensen dissimilarity 
+             0.7142857 
+attr(,"se")
+standard error 
+    0.06498917 
+
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 0.37635, p-value = 0.6467
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.571407
+sample estimates:
+Sorensen dissimilarity 
+             0.4680851 
+attr(,"se")
+standard error 
+    0.06281528 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 6.6936, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.9212073
+sample estimates:
+Sorensen dissimilarity 
+             0.8271605 
+attr(,"se")
+standard error 
+    0.05717638 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 0.73245, p-value = 0.7681
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6052078
+sample estimates:
+Sorensen dissimilarity 
+             0.4939759 
+attr(,"se")
+standard error 
+     0.0676242 
+
+
+
+$GOBP_PHOSPHORYLATION
+$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -1.313, p-value = 0.09459
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.462897
+sample estimates:
+Sorensen dissimilarity 
+             0.3714286 
+attr(,"se")
+standard error 
+    0.05560886 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.1945, p-value = 0.8839
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6281748
+sample estimates:
+Sorensen dissimilarity 
+             0.5217391 
+attr(,"se")
+standard error 
+    0.06470827 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -0.30829, p-value = 0.3789
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.5264377
+sample estimates:
+Sorensen dissimilarity 
+             0.4255319 
+attr(,"se")
+standard error 
+    0.06134639 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 3.5233, p-value = 0.9998
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7757849
+sample estimates:
+Sorensen dissimilarity 
+             0.6703297 
+attr(,"se")
+standard error 
+    0.06411221 
+
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -0.017254, p-value = 0.4931
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.5355853
+sample estimates:
+Sorensen dissimilarity 
+             0.4434783 
+attr(,"se")
+standard error 
+     0.0559971 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 6.7712, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.891245
+sample estimates:
+Sorensen dissimilarity 
+             0.8039216 
+attr(,"se")
+standard error 
+     0.0530889 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 4.186, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7897034
+sample estimates:
+Sorensen dissimilarity 
+             0.6923077 
+attr(,"se")
+standard error 
+    0.05921239 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -0.31613, p-value = 0.376
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.5230511
+sample estimates:
+Sorensen dissimilarity 
+             0.4257426 
+attr(,"se")
+standard error 
+     0.0591594 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 3.0792, p-value = 0.999
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7214495
+sample estimates:
+Sorensen dissimilarity 
+                 0.625 
+attr(,"se")
+standard error 
+    0.05863714 
+
+
+
+attr(,"class")
+[1] "equivSDhtestList" "list"            
+
+$MF$`level 5`
+$GOBP_IMMUNE_RESPONSE
+$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 0.72463, p-value = 0.7657
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.5672956
+sample estimates:
+Sorensen dissimilarity 
+             0.4820144 
+attr(,"se")
+standard error 
+     0.0518473 
+
+
+
+$GOBP_TISSUE_DEVELOPMENT
+$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 0.92874, p-value = 0.8235
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.5871276
+sample estimates:
+Sorensen dissimilarity 
+              0.495935 
+attr(,"se")
+standard error 
+    0.05544121 
+
+
+$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 5.9335, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.8457143
+sample estimates:
+Sorensen dissimilarity 
+             0.7586207 
+attr(,"se")
+standard error 
+    0.05294913 
+
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.5975, p-value = 0.9449
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6168971
+sample estimates:
+Sorensen dissimilarity 
+             0.5294118 
+attr(,"se")
+standard error 
+    0.05318732 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 5.3127, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.8065319
+sample estimates:
+Sorensen dissimilarity 
+             0.7209302 
+attr(,"se")
+standard error 
+    0.05204212 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.6299, p-value = 0.9484
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6360777
+sample estimates:
+Sorensen dissimilarity 
+              0.539823 
+attr(,"se")
+standard error 
+    0.05851871 
+
+
+
+$GOBP_PHOSPHORYLATION
+$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -1.9638, p-value = 0.02478
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.00000 0.42996
+sample estimates:
+Sorensen dissimilarity 
+             0.3552632 
+attr(,"se")
+standard error 
+    0.04541244 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 2.208, p-value = 0.9864
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6436773
+sample estimates:
+Sorensen dissimilarity 
+             0.5586207 
+attr(,"se")
+standard error 
+    0.05171076 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.3749, p-value = 0.9154
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.609027
+sample estimates:
+Sorensen dissimilarity 
+             0.5193798 
+attr(,"se")
+standard error 
+    0.05450157 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 2.8143, p-value = 0.9976
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6775276
+sample estimates:
+Sorensen dissimilarity 
+             0.5915493 
+attr(,"se")
+standard error 
+    0.05227107 
+
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -0.88996, p-value = 0.1867
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.4799407
+sample estimates:
+Sorensen dissimilarity 
+             0.4025974 
+attr(,"se")
+standard error 
+    0.04702136 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 3.972, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7298315
+sample estimates:
+Sorensen dissimilarity 
+             0.6462585 
+attr(,"se")
+standard error 
+    0.05080875 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 4.7551, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7812085
+sample estimates:
+Sorensen dissimilarity 
+             0.6946565 
+attr(,"se")
+standard error 
+    0.05261987 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 0.81678, p-value = 0.793
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.570021
+sample estimates:
+Sorensen dissimilarity 
+             0.4861111 
+attr(,"se")
+standard error 
+    0.05101357 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.8962, p-value = 0.971
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6182221
+sample estimates:
+Sorensen dissimilarity 
+                0.5375 
+attr(,"se")
+standard error 
+    0.04907557 
+
+
+
+attr(,"class")
+[1] "equivSDhtestList" "list"            
+
+$MF$`level 6`
+$GOBP_IMMUNE_RESPONSE
+$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.6007, p-value = 0.9453
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6697315
+sample estimates:
+Sorensen dissimilarity 
+             0.5555556 
+attr(,"se")
+standard error 
+    0.06941402 
+
+
+
+$GOBP_TISSUE_DEVELOPMENT
+$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.3183, p-value = 0.9063
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6656488
+sample estimates:
+Sorensen dissimilarity 
+             0.5428571 
+attr(,"se")
+standard error 
+    0.07465201 
+
+
+$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 3.7901, p-value = 0.9999
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.8439995
+sample estimates:
+Sorensen dissimilarity 
+             0.7230769 
+attr(,"se")
+standard error 
+    0.07351571 
+
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 2.2825, p-value = 0.9888
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7043637
+sample estimates:
+Sorensen dissimilarity 
+             0.5955056 
+attr(,"se")
+standard error 
+    0.06618103 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 5.1116, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.8640596
+sample estimates:
+Sorensen dissimilarity 
+             0.7619048 
+attr(,"se")
+standard error 
+    0.06210573 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 2.3568, p-value = 0.9908
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7364767
+sample estimates:
+Sorensen dissimilarity 
+             0.6164384 
+attr(,"se")
+standard error 
+     0.0729781 
+
+
+
+$GOBP_PHOSPHORYLATION
+$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 0.31561, p-value = 0.6238
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.5654058
+sample estimates:
+Sorensen dissimilarity 
+             0.4639175 
+attr(,"se")
+standard error 
+    0.06170051 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 2.1886, p-value = 0.9857
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6940621
+sample estimates:
+Sorensen dissimilarity 
+             0.5869565 
+attr(,"se")
+standard error 
+    0.06511554 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.6007, p-value = 0.9453
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6697315
+sample estimates:
+Sorensen dissimilarity 
+             0.5555556 
+attr(,"se")
+standard error 
+    0.06941402 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 5.0787, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.8357227
+sample estimates:
+Sorensen dissimilarity 
+                  0.74 
+attr(,"se")
+standard error 
+    0.05819525 
+
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 0.96809, p-value = 0.8335
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6083058
+sample estimates:
+Sorensen dissimilarity 
+             0.5051546 
+attr(,"se")
+standard error 
+    0.06271144 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 4.8505, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.8390621
+sample estimates:
+Sorensen dissimilarity 
+             0.7391304 
+attr(,"se")
+standard error 
+    0.06075414 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 5.9868, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.9008352
+sample estimates:
+Sorensen dissimilarity 
+             0.8024691 
+attr(,"se")
+standard error 
+    0.05980235 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.8519, p-value = 0.968
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6626389
+sample estimates:
+Sorensen dissimilarity 
+                  0.56 
+attr(,"se")
+standard error 
+        0.0624 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 4.8846, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.815761
+sample estimates:
+Sorensen dissimilarity 
+             0.7222222 
+attr(,"se")
+standard error 
+    0.05686754 
+
+
+
+attr(,"class")
+[1] "equivSDhtestList" "list"            
+
+$MF$`level 7`
+$GOBP_IMMUNE_RESPONSE
+$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 2.3513, p-value = 0.9906
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7654685
+sample estimates:
+Sorensen dissimilarity 
+             0.6333333 
+attr(,"se")
+standard error 
+    0.08033247 
+
+
+
+$GOBP_TISSUE_DEVELOPMENT
+$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 0.47393, p-value = 0.6822
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6157335
+sample estimates:
+Sorensen dissimilarity 
+             0.4827586 
+attr(,"se")
+standard error 
+    0.08084301 
+
+
+$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 4.1317, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.9415503
+sample estimates:
+Sorensen dissimilarity 
+                   0.8 
+attr(,"se")
+standard error 
+    0.08605646 
+
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.9747, p-value = 0.9758
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7094842
+sample estimates:
+Sorensen dissimilarity 
+             0.5890411 
+attr(,"se")
+standard error 
+    0.07322421 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 3.8383, p-value = 0.9999
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.8744472
+sample estimates:
+Sorensen dissimilarity 
+             0.7454545 
+attr(,"se")
+standard error 
+    0.07842199 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.6287, p-value = 0.9483
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7267592
+sample estimates:
+Sorensen dissimilarity 
+             0.5849057 
+attr(,"se")
+standard error 
+    0.08624081 
+
+
+
+$GOBP_PHOSPHORYLATION
+$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -1.6453, p-value = 0.04996
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.444419
+sample estimates:
+Sorensen dissimilarity 
+             0.3417722 
+attr(,"se")
+standard error 
+    0.06240488 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 2.9006, p-value = 0.9981
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.8012455
+sample estimates:
+Sorensen dissimilarity 
+             0.6721311 
+attr(,"se")
+standard error 
+    0.07849598 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 0.16638, p-value = 0.5661
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.5879555
+sample estimates:
+Sorensen dissimilarity 
+             0.4576271 
+attr(,"se")
+standard error 
+    0.07923401 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 2.4472, p-value = 0.9928
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.740708
+sample estimates:
+Sorensen dissimilarity 
+             0.6216216 
+attr(,"se")
+standard error 
+    0.07239936 
+
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -0.87847, p-value = 0.1898
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.490804
+sample estimates:
+Sorensen dissimilarity 
+             0.3913043 
+attr(,"se")
+standard error 
+    0.06049149 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 4.1688, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.842294
+sample estimates:
+Sorensen dissimilarity 
+             0.7297297 
+attr(,"se")
+standard error 
+    0.06843419 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 4.4902, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.8619322
+sample estimates:
+Sorensen dissimilarity 
+                  0.75 
+attr(,"se")
+standard error 
+    0.06804995 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.7733, p-value = 0.9619
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6733888
+sample estimates:
+Sorensen dissimilarity 
+             0.5632184 
+attr(,"se")
+standard error 
+    0.06697887 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.9368, p-value = 0.9736
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6764296
+sample estimates:
+Sorensen dissimilarity 
+             0.5698925 
+attr(,"se")
+standard error 
+    0.06476996 
+
+
+
+attr(,"class")
+[1] "equivSDhtestList" "list"            
+
+$MF$`level 8`
+$GOBP_IMMUNE_RESPONSE
+$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 0.14077, p-value = 0.556
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6612796
+sample estimates:
+Sorensen dissimilarity 
+             0.4615385 
+attr(,"se")
+standard error 
+      0.121434 
+
+
+
+$GOBP_TISSUE_DEVELOPMENT
+$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.3757, p-value = 0.9155
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.8197747
+sample estimates:
+Sorensen dissimilarity 
+             0.6153846 
+attr(,"se")
+standard error 
+     0.1242604 
+
+
+$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 4.2353, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0 1
+sample estimates:
+Sorensen dissimilarity 
+             0.8888889 
+attr(,"se")
+standard error 
+     0.1049383 
+
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.4856, p-value = 0.9313
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7994212
+sample estimates:
+Sorensen dissimilarity 
+             0.6129032 
+attr(,"se")
+standard error 
+     0.1133949 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 5.6338, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0 1
+sample estimates:
+Sorensen dissimilarity 
+             0.9130435 
+attr(,"se")
+standard error 
+     0.0831758 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 2.3787, p-value = 0.9913
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.9429003
+sample estimates:
+Sorensen dissimilarity 
+             0.7391304 
+attr(,"se")
+standard error 
+     0.1238833 
+
+
+
+$GOBP_PHOSPHORYLATION
+$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -0.17099, p-value = 0.4321
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.5812604
+sample estimates:
+Sorensen dissimilarity 
+             0.4285714 
+attr(,"se")
+standard error 
+    0.09282833 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.3265, p-value = 0.9077
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7665309
+sample estimates:
+Sorensen dissimilarity 
+             0.5882353 
+attr(,"se")
+standard error 
+      0.108396 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 2.517, p-value = 0.9941
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.00000 0.87673
+sample estimates:
+Sorensen dissimilarity 
+             0.7058824 
+attr(,"se")
+standard error 
+      0.103868 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 5.0457, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.9771064
+sample estimates:
+Sorensen dissimilarity 
+             0.8461538 
+attr(,"se")
+standard error 
+    0.07961353 
+
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 0.82114, p-value = 0.7942
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6827883
+sample estimates:
+Sorensen dissimilarity 
+             0.5238095 
+attr(,"se")
+standard error 
+    0.09665223 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 2.517, p-value = 0.9941
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.00000 0.87673
+sample estimates:
+Sorensen dissimilarity 
+             0.7058824 
+attr(,"se")
+standard error 
+      0.103868 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 5.6855, p-value = 1
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0 1
+sample estimates:
+Sorensen dissimilarity 
+             0.8823529 
+attr(,"se")
+standard error 
+    0.07702238 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.9663, p-value = 0.9754
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.8054689
+sample estimates:
+Sorensen dissimilarity 
+             0.6410256 
+attr(,"se")
+standard error 
+    0.09997443 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.7527, p-value = 0.9602
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7459841
+sample estimates:
+Sorensen dissimilarity 
+                   0.6 
+attr(,"se")
+standard error 
+    0.08875203 
+
+
+
+attr(,"class")
+[1] "equivSDhtestList" "list"            
+
+$MF$`level 9`
+$GOBP_IMMUNE_RESPONSE
+$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.9753, p-value = 0.9759
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0 1
+sample estimates:
+Sorensen dissimilarity 
+                   0.8 
+attr(,"se")
+standard error 
+          0.18 
+
+
+
+$GOBP_TISSUE_DEVELOPMENT
+$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = -0.35527, p-value = 0.3612
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6616175
+sample estimates:
+Sorensen dissimilarity 
+             0.3846154 
+attr(,"se")
+standard error 
+     0.1684053 
+
+
+$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+
+	No test performed due not finite (d - d0) / se statistic
+
+data:  tab
+(d - d0) / se = Inf, p-value = NA
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+   0 NaN
+sample estimates:
+Sorensen dissimilarity 
+                     1 
+attr(,"se")
+standard error 
+             0 
+
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 0.73297, p-value = 0.7682
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.8048994
+sample estimates:
+Sorensen dissimilarity 
+             0.5555556 
+attr(,"se")
+standard error 
+     0.1515903 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+
+	No test performed due not finite (d - d0) / se statistic
+
+data:  tab
+(d - d0) / se = Inf, p-value = NA
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+   0 NaN
+sample estimates:
+Sorensen dissimilarity 
+                     1 
+attr(,"se")
+standard error 
+             0 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 0.54528, p-value = 0.7072
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7857205
+sample estimates:
+Sorensen dissimilarity 
+             0.5294118 
+attr(,"se")
+standard error 
+     0.1558246 
+
+
+
+$GOBP_PHOSPHORYLATION
+$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 0, p-value = 0.5
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.6854322
+sample estimates:
+Sorensen dissimilarity 
+             0.4444444 
+attr(,"se")
+standard error 
+     0.1465101 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.6343, p-value = 0.9489
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.9858678
+sample estimates:
+Sorensen dissimilarity 
+             0.7142857 
+attr(,"se")
+standard error 
+     0.1651102 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.3126, p-value = 0.9053
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.9009647
+sample estimates:
+Sorensen dissimilarity 
+             0.6470588 
+attr(,"se")
+standard error 
+     0.1543638 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 3.2853, p-value = 0.9995
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0 1
+sample estimates:
+Sorensen dissimilarity 
+             0.8181818 
+attr(,"se")
+standard error 
+     0.1137599 
+
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 0.34744, p-value = 0.6359
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.763013
+sample estimates:
+Sorensen dissimilarity 
+                   0.5 
+attr(,"se")
+standard error 
+     0.1599005 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+
+	No test performed due not finite (d - d0) / se statistic
+
+data:  tab
+(d - d0) / se = Inf, p-value = NA
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+   0 NaN
+sample estimates:
+Sorensen dissimilarity 
+                     1 
+attr(,"se")
+standard error 
+             0 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 1.8464, p-value = 0.9676
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.000000 0.990692
+sample estimates:
+Sorensen dissimilarity 
+             0.7333333 
+attr(,"se")
+standard error 
+      0.156463 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 0.39196, p-value = 0.6525
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0.0000000 0.7331361
+sample estimates:
+Sorensen dissimilarity 
+                   0.5 
+attr(,"se")
+standard error 
+     0.1417367 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 2.8795, p-value = 0.998
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0 1
+sample estimates:
+Sorensen dissimilarity 
+                   0.8 
+attr(,"se")
+standard error 
+      0.123479 
+
+
+
+attr(,"class")
+[1] "equivSDhtestList" "list"            
+
+$MF$`level 10`
+$GOBP_IMMUNE_RESPONSE
+$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+
+	No test performed due not finite (d - d0) / se statistic
+
+data:  tab
+(d - d0) / se = NaN, p-value = NA
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+   0 NaN
+sample estimates:
+Sorensen dissimilarity 
+                   NaN 
+attr(,"se")
+standard error 
+           NaN 
+
+
+
+$GOBP_TISSUE_DEVELOPMENT
+$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+
+	No test performed due not finite (d - d0) / se statistic
+
+data:  tab
+(d - d0) / se = NaN, p-value = NA
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+   0 NaN
+sample estimates:
+Sorensen dissimilarity 
+                     1 
+attr(,"se")
+standard error 
+           NaN 
+
+
+$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+
+	No test performed due not finite (d - d0) / se statistic
+
+data:  tab
+(d - d0) / se = NaN, p-value = NA
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+   0 NaN
+sample estimates:
+Sorensen dissimilarity 
+                     1 
+attr(,"se")
+standard error 
+           NaN 
+
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+
+	No test performed due not finite (d - d0) / se statistic
+
+data:  tab
+(d - d0) / se = Inf, p-value = NA
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+   0 NaN
+sample estimates:
+Sorensen dissimilarity 
+                     1 
+attr(,"se")
+standard error 
+             0 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+
+	No test performed due not finite (d - d0) / se statistic
+
+data:  tab
+(d - d0) / se = Inf, p-value = NA
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+   0 NaN
+sample estimates:
+Sorensen dissimilarity 
+                     1 
+attr(,"se")
+standard error 
+             0 
+
+
+$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 0.48611, p-value = 0.6866
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0 1
+sample estimates:
+Sorensen dissimilarity 
+                   0.6 
+attr(,"se")
+standard error 
+          0.32 
+
+
+
+$GOBP_PHOSPHORYLATION
+$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+
+	No test performed due not finite (d - d0) / se statistic
+
+data:  tab
+(d - d0) / se = NaN, p-value = NA
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+   0 NaN
+sample estimates:
+Sorensen dissimilarity 
+                     1 
+attr(,"se")
+standard error 
+           NaN 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+
+	No test performed due not finite (d - d0) / se statistic
+
+data:  tab
+(d - d0) / se = NaN, p-value = NA
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+   0 NaN
+sample estimates:
+Sorensen dissimilarity 
+                     1 
+attr(,"se")
+standard error 
+           NaN 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+
+	No test performed due not finite (d - d0) / se statistic
+
+data:  tab
+(d - d0) / se = Inf, p-value = NA
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+   0 NaN
+sample estimates:
+Sorensen dissimilarity 
+                     1 
+attr(,"se")
+standard error 
+             0 
+
+
+$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	No test performed due not finite (d - d0) / se statistic
+
+data:  tab
+(d - d0) / se = Inf, p-value = NA
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+   0 NaN
+sample estimates:
+Sorensen dissimilarity 
+                     1 
+attr(,"se")
+standard error 
+             0 
+
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+
+	No test performed due not finite (d - d0) / se statistic
+
+data:  tab
+(d - d0) / se = NaN, p-value = NA
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+   0 NaN
+sample estimates:
+Sorensen dissimilarity 
+                     1 
+attr(,"se")
+standard error 
+           NaN 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+
+	No test performed due not finite (d - d0) / se statistic
+
+data:  tab
+(d - d0) / se = NaN, p-value = NA
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+   0 NaN
+sample estimates:
+Sorensen dissimilarity 
+                     1 
+attr(,"se")
+standard error 
+           NaN 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+
+	No test performed due not finite (d - d0) / se statistic
+
+data:  tab
+(d - d0) / se = Inf, p-value = NA
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+   0 NaN
+sample estimates:
+Sorensen dissimilarity 
+                     1 
+attr(,"se")
+standard error 
+             0 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+
+	Normal asymptotic test for 2x2 contingency tables based on the
+	Sorensen-Dice dissimilarity
+
+data:  tab
+(d - d0) / se = 0.48611, p-value = 0.6866
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+ 0 1
+sample estimates:
+Sorensen dissimilarity 
+                   0.6 
+attr(,"se")
+standard error 
+          0.32 
+
+
+$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+
+	No test performed due not finite (d - d0) / se statistic
+
+data:  tab
+(d - d0) / se = Inf, p-value = NA
+alternative hypothesis: true equivalence limit d0 is less than 0.4444444
+95 percent confidence interval:
+   0 NaN
+sample estimates:
+Sorensen dissimilarity 
+                     1 
+attr(,"se")
+standard error 
+             0 
+
+
+
+attr(,"class")
+[1] "equivSDhtestList" "list"            
+
+
+attr(,"class")
+[1] "AllEquivSDhtest" "list"           

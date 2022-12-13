@@ -1,0 +1,2742 @@
+$BP
+$BP$`level 3`
+$BP$`level 3`$GOBP_IMMUNE_RESPONSE
+$BP$`level 3`$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_IMMUNE_RESPONSE TRUE FALSE
+                           TRUE    50    13
+                           FALSE   53   407
+
+
+$BP$`level 3`$GOBP_TISSUE_DEVELOPMENT
+$BP$`level 3`$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+                                   Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE    77    16
+                              FALSE   26   404
+
+$BP$`level 3`$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+                                   Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE    38    55
+                              FALSE   25   405
+
+
+$BP$`level 3`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$BP$`level 3`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE    72
+                                                                     FALSE   31
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     11
+                                                                     FALSE   409
+
+$BP$`level 3`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE    42
+                                                                     FALSE   21
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     41
+                                                                     FALSE   419
+
+$BP$`level 3`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE    66
+                                                                     FALSE   27
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     17
+                                                                     FALSE   413
+
+
+$BP$`level 3`$GOBP_PHOSPHORYLATION
+$BP$`level 3`$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    82    13
+                           FALSE   21   407
+
+$BP$`level 3`$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+                                Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    52    43
+                           FALSE   11   417
+
+$BP$`level 3`$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+                                Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    76    19
+                           FALSE   17   411
+
+$BP$`level 3`$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    70    25
+                           FALSE   13   415
+
+
+$BP$`level 3`$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$BP$`level 3`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+                                            Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    75     9
+                                       FALSE   28   411
+
+$BP$`level 3`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+                                            Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    43    41
+                                       FALSE   20   419
+
+$BP$`level 3`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+                                            Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    62    22
+                                       FALSE   31   408
+
+$BP$`level 3`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                            Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    66    18
+                                       FALSE   17   422
+
+$BP$`level 3`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+                                            Enriched in GOBP_PHOSPHORYLATION
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    70    14
+                                       FALSE   25   414
+
+
+
+$BP$`level 4`
+$BP$`level 4`$GOBP_IMMUNE_RESPONSE
+$BP$`level 4`$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_IMMUNE_RESPONSE TRUE FALSE
+                           TRUE   268    41
+                           FALSE  385  3081
+
+
+$BP$`level 4`$GOBP_TISSUE_DEVELOPMENT
+$BP$`level 4`$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+                                   Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE   489    87
+                              FALSE  164  3035
+
+$BP$`level 4`$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+                                   Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE   203   373
+                              FALSE  106  3093
+
+
+$BP$`level 4`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$BP$`level 4`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE   470
+                                                                     FALSE  183
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     60
+                                                                     FALSE  3062
+
+$BP$`level 4`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE   220
+                                                                     FALSE   89
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE    310
+                                                                     FALSE  3156
+
+$BP$`level 4`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE   441
+                                                                     FALSE  135
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     89
+                                                                     FALSE  3110
+
+
+$BP$`level 4`$GOBP_PHOSPHORYLATION
+$BP$`level 4`$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE   524    56
+                           FALSE  129  3066
+
+$BP$`level 4`$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+                                Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE   265   315
+                           FALSE   44  3151
+
+$BP$`level 4`$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+                                Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE   442   138
+                           FALSE  134  3061
+
+$BP$`level 4`$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE   421   159
+                           FALSE  109  3086
+
+
+$BP$`level 4`$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$BP$`level 4`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+                                            Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE   463    38
+                                       FALSE  190  3084
+
+$BP$`level 4`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+                                            Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE   223   278
+                                       FALSE   86  3188
+
+$BP$`level 4`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+                                            Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE   382   119
+                                       FALSE  194  3080
+
+$BP$`level 4`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                            Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE   381   120
+                                       FALSE  149  3125
+
+$BP$`level 4`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+                                            Enriched in GOBP_PHOSPHORYLATION
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE   428    73
+                                       FALSE  152  3122
+
+
+
+$BP$`level 5`
+$BP$`level 5`$GOBP_IMMUNE_RESPONSE
+$BP$`level 5`$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_IMMUNE_RESPONSE TRUE FALSE
+                           TRUE   647   102
+                           FALSE  970  8429
+
+
+$BP$`level 5`$GOBP_TISSUE_DEVELOPMENT
+$BP$`level 5`$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+                                   Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE  1181   206
+                              FALSE  436  8325
+
+$BP$`level 5`$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+                                   Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE   457   930
+                              FALSE  292  8469
+
+
+$BP$`level 5`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$BP$`level 5`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE  1120
+                                                                     FALSE  497
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE    134
+                                                                     FALSE  8397
+
+$BP$`level 5`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE   486
+                                                                     FALSE  263
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE    768
+                                                                     FALSE  8631
+
+$BP$`level 5`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE  1032
+                                                                     FALSE  355
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE    222
+                                                                     FALSE  8539
+
+
+$BP$`level 5`$GOBP_PHOSPHORYLATION
+$BP$`level 5`$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE  1306   188
+                           FALSE  311  8343
+
+$BP$`level 5`$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+                                Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE   628   866
+                           FALSE  121  8533
+
+$BP$`level 5`$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+                                Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE  1074   420
+                           FALSE  313  8341
+
+$BP$`level 5`$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE   997   497
+                           FALSE  257  8397
+
+
+$BP$`level 5`$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$BP$`level 5`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+                                            Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE  1130   107
+                                       FALSE  487  8424
+
+$BP$`level 5`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+                                            Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE   530   707
+                                       FALSE  219  8692
+
+$BP$`level 5`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+                                            Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE   886   351
+                                       FALSE  501  8410
+
+$BP$`level 5`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                            Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE   918   319
+                                       FALSE  336  8575
+
+$BP$`level 5`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+                                            Enriched in GOBP_PHOSPHORYLATION
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE  1024   213
+                                       FALSE  470  8441
+
+
+
+$BP$`level 6`
+$BP$`level 6`$GOBP_IMMUNE_RESPONSE
+$BP$`level 6`$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_IMMUNE_RESPONSE  TRUE FALSE
+                           TRUE    938   154
+                           FALSE  1430 13864
+
+
+$BP$`level 6`$GOBP_TISSUE_DEVELOPMENT
+$BP$`level 6`$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+                                   Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_TISSUE_DEVELOPMENT  TRUE FALSE
+                              TRUE   1657   321
+                              FALSE   711 13697
+
+$BP$`level 6`$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+                                   Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_TISSUE_DEVELOPMENT  TRUE FALSE
+                              TRUE    642  1336
+                              FALSE   450 13958
+
+
+$BP$`level 6`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$BP$`level 6`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS  TRUE
+                                                                     TRUE   1571
+                                                                     FALSE   797
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE    224
+                                                                     FALSE 13794
+
+$BP$`level 6`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS  TRUE
+                                                                     TRUE    687
+                                                                     FALSE   405
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE   1108
+                                                                     FALSE 14186
+
+$BP$`level 6`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS  TRUE
+                                                                     TRUE   1420
+                                                                     FALSE   558
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE    375
+                                                                     FALSE 14033
+
+
+$BP$`level 6`$GOBP_PHOSPHORYLATION
+$BP$`level 6`$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION  TRUE FALSE
+                           TRUE   1895   321
+                           FALSE   473 13697
+
+$BP$`level 6`$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+                                Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_PHOSPHORYLATION  TRUE FALSE
+                           TRUE    910  1306
+                           FALSE   182 13988
+
+$BP$`level 6`$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+                                Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_PHOSPHORYLATION  TRUE FALSE
+                           TRUE   1527   689
+                           FALSE   451 13719
+
+$BP$`level 6`$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION  TRUE FALSE
+                           TRUE   1404   812
+                           FALSE   391 13779
+
+
+$BP$`level 6`$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$BP$`level 6`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+                                            Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS  TRUE FALSE
+                                       TRUE   1635   202
+                                       FALSE   733 13816
+
+$BP$`level 6`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+                                            Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS  TRUE FALSE
+                                       TRUE    768  1069
+                                       FALSE   324 14225
+
+$BP$`level 6`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+                                            Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS  TRUE FALSE
+                                       TRUE   1243   594
+                                       FALSE   735 13814
+
+$BP$`level 6`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                            Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS  TRUE FALSE
+                                       TRUE   1300   537
+                                       FALSE   495 14054
+
+$BP$`level 6`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+                                            Enriched in GOBP_PHOSPHORYLATION
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS  TRUE FALSE
+                                       TRUE   1490   347
+                                       FALSE   726 13823
+
+
+
+$BP$`level 7`
+$BP$`level 7`$GOBP_IMMUNE_RESPONSE
+$BP$`level 7`$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_IMMUNE_RESPONSE  TRUE FALSE
+                           TRUE    985   177
+                           FALSE  1476 16513
+
+
+$BP$`level 7`$GOBP_TISSUE_DEVELOPMENT
+$BP$`level 7`$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+                                   Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_TISSUE_DEVELOPMENT  TRUE FALSE
+                              TRUE   1674   341
+                              FALSE   787 16349
+
+$BP$`level 7`$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+                                   Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_TISSUE_DEVELOPMENT  TRUE FALSE
+                              TRUE    655  1360
+                              FALSE   507 16629
+
+
+$BP$`level 7`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$BP$`level 7`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS  TRUE
+                                                                     TRUE   1598
+                                                                     FALSE   863
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE    286
+                                                                     FALSE 16404
+
+$BP$`level 7`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS  TRUE
+                                                                     TRUE    718
+                                                                     FALSE   444
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE   1166
+                                                                     FALSE 16823
+
+$BP$`level 7`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS  TRUE
+                                                                     TRUE   1404
+                                                                     FALSE   611
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE    480
+                                                                     FALSE 16656
+
+
+$BP$`level 7`$GOBP_PHOSPHORYLATION
+$BP$`level 7`$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION  TRUE FALSE
+                           TRUE   1957   364
+                           FALSE   504 16326
+
+$BP$`level 7`$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+                                Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_PHOSPHORYLATION  TRUE FALSE
+                           TRUE    955  1366
+                           FALSE   207 16623
+
+$BP$`level 7`$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+                                Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_PHOSPHORYLATION  TRUE FALSE
+                           TRUE   1552   769
+                           FALSE   463 16367
+
+$BP$`level 7`$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION  TRUE FALSE
+                           TRUE   1433   888
+                           FALSE   451 16379
+
+
+$BP$`level 7`$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$BP$`level 7`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+                                            Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS  TRUE FALSE
+                                       TRUE   1672   272
+                                       FALSE   789 16418
+
+$BP$`level 7`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+                                            Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS  TRUE FALSE
+                                       TRUE    799  1145
+                                       FALSE   363 16844
+
+$BP$`level 7`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+                                            Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS  TRUE FALSE
+                                       TRUE   1228   716
+                                       FALSE   787 16420
+
+$BP$`level 7`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                            Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS  TRUE FALSE
+                                       TRUE   1339   605
+                                       FALSE   545 16662
+
+$BP$`level 7`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+                                            Enriched in GOBP_PHOSPHORYLATION
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS  TRUE FALSE
+                                       TRUE   1535   409
+                                       FALSE   786 16421
+
+
+
+$BP$`level 8`
+$BP$`level 8`$GOBP_IMMUNE_RESPONSE
+$BP$`level 8`$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_IMMUNE_RESPONSE  TRUE FALSE
+                           TRUE    842   173
+                           FALSE  1274 16219
+
+
+$BP$`level 8`$GOBP_TISSUE_DEVELOPMENT
+$BP$`level 8`$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+                                   Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_TISSUE_DEVELOPMENT  TRUE FALSE
+                              TRUE   1410   311
+                              FALSE   706 16081
+
+$BP$`level 8`$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+                                   Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_TISSUE_DEVELOPMENT  TRUE FALSE
+                              TRUE    545  1176
+                              FALSE   470 16317
+
+
+$BP$`level 8`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$BP$`level 8`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS  TRUE
+                                                                     TRUE   1376
+                                                                     FALSE   740
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE    310
+                                                                     FALSE 16082
+
+$BP$`level 8`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS  TRUE
+                                                                     TRUE    619
+                                                                     FALSE   396
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE   1067
+                                                                     FALSE 16426
+
+$BP$`level 8`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS  TRUE
+                                                                     TRUE   1205
+                                                                     FALSE   516
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE    481
+                                                                     FALSE 16306
+
+
+$BP$`level 8`$GOBP_PHOSPHORYLATION
+$BP$`level 8`$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION  TRUE FALSE
+                           TRUE   1670   353
+                           FALSE   446 16039
+
+$BP$`level 8`$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+                                Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_PHOSPHORYLATION  TRUE FALSE
+                           TRUE    820  1203
+                           FALSE   195 16290
+
+$BP$`level 8`$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+                                Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_PHOSPHORYLATION  TRUE FALSE
+                           TRUE   1302   721
+                           FALSE   419 16066
+
+$BP$`level 8`$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION  TRUE FALSE
+                           TRUE   1228   795
+                           FALSE   458 16027
+
+
+$BP$`level 8`$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$BP$`level 8`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+                                            Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS  TRUE FALSE
+                                       TRUE   1404   264
+                                       FALSE   712 16128
+
+$BP$`level 8`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+                                            Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS  TRUE FALSE
+                                       TRUE    676   992
+                                       FALSE   339 16501
+
+$BP$`level 8`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+                                            Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS  TRUE FALSE
+                                       TRUE   1007   661
+                                       FALSE   714 16126
+
+$BP$`level 8`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                            Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS  TRUE FALSE
+                                       TRUE   1150   518
+                                       FALSE   536 16304
+
+$BP$`level 8`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+                                            Enriched in GOBP_PHOSPHORYLATION
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS  TRUE FALSE
+                                       TRUE   1295   373
+                                       FALSE   728 16112
+
+
+
+$BP$`level 9`
+$BP$`level 9`$GOBP_IMMUNE_RESPONSE
+$BP$`level 9`$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_IMMUNE_RESPONSE  TRUE FALSE
+                           TRUE    620   128
+                           FALSE   991 14038
+
+
+$BP$`level 9`$GOBP_TISSUE_DEVELOPMENT
+$BP$`level 9`$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+                                   Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_TISSUE_DEVELOPMENT  TRUE FALSE
+                              TRUE   1048   246
+                              FALSE   563 13920
+
+$BP$`level 9`$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+                                   Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_TISSUE_DEVELOPMENT  TRUE FALSE
+                              TRUE    390   904
+                              FALSE   358 14125
+
+
+$BP$`level 9`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$BP$`level 9`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS  TRUE
+                                                                     TRUE   1041
+                                                                     FALSE   570
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE    297
+                                                                     FALSE 13869
+
+$BP$`level 9`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS  TRUE
+                                                                     TRUE    454
+                                                                     FALSE   294
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE    884
+                                                                     FALSE 14145
+
+$BP$`level 9`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS  TRUE
+                                                                     TRUE    923
+                                                                     FALSE   371
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE    415
+                                                                     FALSE 14068
+
+
+$BP$`level 9`$GOBP_PHOSPHORYLATION
+$BP$`level 9`$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION  TRUE FALSE
+                           TRUE   1258   291
+                           FALSE   353 13875
+
+$BP$`level 9`$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+                                Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_PHOSPHORYLATION  TRUE FALSE
+                           TRUE    600   949
+                           FALSE   148 14080
+
+$BP$`level 9`$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+                                Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_PHOSPHORYLATION  TRUE FALSE
+                           TRUE    968   581
+                           FALSE   326 13902
+
+$BP$`level 9`$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION  TRUE FALSE
+                           TRUE    935   614
+                           FALSE   403 13825
+
+
+$BP$`level 9`$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$BP$`level 9`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+                                            Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS  TRUE FALSE
+                                       TRUE   1042   230
+                                       FALSE   569 13936
+
+$BP$`level 9`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+                                            Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS  TRUE FALSE
+                                       TRUE    487   785
+                                       FALSE   261 14244
+
+$BP$`level 9`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+                                            Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS  TRUE FALSE
+                                       TRUE    739   533
+                                       FALSE   555 13950
+
+$BP$`level 9`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                            Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS  TRUE FALSE
+                                       TRUE    866   406
+                                       FALSE   472 14033
+
+$BP$`level 9`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+                                            Enriched in GOBP_PHOSPHORYLATION
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS  TRUE FALSE
+                                       TRUE    960   312
+                                       FALSE   589 13916
+
+
+
+$BP$`level 10`
+$BP$`level 10`$GOBP_IMMUNE_RESPONSE
+$BP$`level 10`$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_IMMUNE_RESPONSE  TRUE FALSE
+                           TRUE    385    76
+                           FALSE   679 10905
+
+
+$BP$`level 10`$GOBP_TISSUE_DEVELOPMENT
+$BP$`level 10`$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+                                   Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_TISSUE_DEVELOPMENT  TRUE FALSE
+                              TRUE    699   177
+                              FALSE   365 10804
+
+$BP$`level 10`$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+                                   Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_TISSUE_DEVELOPMENT  TRUE FALSE
+                              TRUE    251   625
+                              FALSE   210 10959
+
+
+$BP$`level 10`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$BP$`level 10`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS  TRUE
+                                                                     TRUE    695
+                                                                     FALSE   369
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE    232
+                                                                     FALSE 10749
+
+$BP$`level 10`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS  TRUE
+                                                                     TRUE    288
+                                                                     FALSE   173
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE    639
+                                                                     FALSE 10945
+
+$BP$`level 10`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS  TRUE
+                                                                     TRUE    633
+                                                                     FALSE   243
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE    294
+                                                                     FALSE 10875
+
+
+$BP$`level 10`$GOBP_PHOSPHORYLATION
+$BP$`level 10`$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION  TRUE FALSE
+                           TRUE    820   210
+                           FALSE   244 10771
+
+$BP$`level 10`$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+                                Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_PHOSPHORYLATION  TRUE FALSE
+                           TRUE    369   661
+                           FALSE    92 10923
+
+$BP$`level 10`$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+                                Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_PHOSPHORYLATION  TRUE FALSE
+                           TRUE    645   385
+                           FALSE   231 10784
+
+$BP$`level 10`$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION  TRUE FALSE
+                           TRUE    624   406
+                           FALSE   303 10712
+
+
+$BP$`level 10`$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$BP$`level 10`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+                                            Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS  TRUE FALSE
+                                       TRUE    688   172
+                                       FALSE   376 10809
+
+$BP$`level 10`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+                                            Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS  TRUE FALSE
+                                       TRUE    299   561
+                                       FALSE   162 11023
+
+$BP$`level 10`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+                                            Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS  TRUE FALSE
+                                       TRUE    495   365
+                                       FALSE   381 10804
+
+$BP$`level 10`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                            Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS  TRUE FALSE
+                                       TRUE    580   280
+                                       FALSE   347 10838
+
+$BP$`level 10`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+                                            Enriched in GOBP_PHOSPHORYLATION
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS  TRUE FALSE
+                                       TRUE    627   233
+                                       FALSE   403 10782
+
+
+
+
+$CC
+$CC$`level 3`
+$CC$`level 3`$GOBP_IMMUNE_RESPONSE
+$CC$`level 3`$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_IMMUNE_RESPONSE TRUE FALSE
+                           TRUE     5     4
+                           FALSE   13   698
+
+
+$CC$`level 3`$GOBP_TISSUE_DEVELOPMENT
+$CC$`level 3`$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+                                   Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE    10    25
+                              FALSE    8   677
+
+$CC$`level 3`$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+                                   Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE     3    32
+                              FALSE    6   679
+
+
+$CC$`level 3`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$CC$`level 3`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE     5
+                                                                     FALSE   13
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE      3
+                                                                     FALSE   699
+
+$CC$`level 3`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE     0
+                                                                     FALSE    9
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE      8
+                                                                     FALSE   703
+
+$CC$`level 3`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE     3
+                                                                     FALSE   32
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE      5
+                                                                     FALSE   680
+
+
+$CC$`level 3`$GOBP_PHOSPHORYLATION
+$CC$`level 3`$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    12    10
+                           FALSE    6   692
+
+$CC$`level 3`$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+                                Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE     3    19
+                           FALSE    6   692
+
+$CC$`level 3`$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+                                Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    10    12
+                           FALSE   25   673
+
+$CC$`level 3`$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE     3    19
+                           FALSE    5   693
+
+
+$CC$`level 3`$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$CC$`level 3`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+                                            Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    11     9
+                                       FALSE    7   693
+
+$CC$`level 3`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+                                            Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE     2    18
+                                       FALSE    7   693
+
+$CC$`level 3`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+                                            Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE     7    13
+                                       FALSE   28   672
+
+$CC$`level 3`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                            Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE     7    13
+                                       FALSE    1   699
+
+$CC$`level 3`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+                                            Enriched in GOBP_PHOSPHORYLATION
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE     9    11
+                                       FALSE   13   687
+
+
+
+$CC$`level 4`
+$CC$`level 4`$GOBP_IMMUNE_RESPONSE
+$CC$`level 4`$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_IMMUNE_RESPONSE TRUE FALSE
+                           TRUE     8     9
+                           FALSE   29  1383
+
+
+$CC$`level 4`$GOBP_TISSUE_DEVELOPMENT
+$CC$`level 4`$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+                                   Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE    19    26
+                              FALSE   18  1366
+
+$CC$`level 4`$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+                                   Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE     5    40
+                              FALSE   12  1372
+
+
+$CC$`level 4`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$CC$`level 4`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE    15
+                                                                     FALSE   22
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     26
+                                                                     FALSE  1366
+
+$CC$`level 4`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE     2
+                                                                     FALSE   15
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     39
+                                                                     FALSE  1373
+
+$CC$`level 4`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE     6
+                                                                     FALSE   39
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     35
+                                                                     FALSE  1349
+
+
+$CC$`level 4`$GOBP_PHOSPHORYLATION
+$CC$`level 4`$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    22    16
+                           FALSE   15  1376
+
+$CC$`level 4`$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+                                Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE     8    30
+                           FALSE    9  1382
+
+$CC$`level 4`$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+                                Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    17    21
+                           FALSE   28  1363
+
+$CC$`level 4`$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    12    26
+                           FALSE   29  1362
+
+
+$CC$`level 4`$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$CC$`level 4`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+                                            Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    24    39
+                                       FALSE   13  1353
+
+$CC$`level 4`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+                                            Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE     6    57
+                                       FALSE   11  1355
+
+$CC$`level 4`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+                                            Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    12    51
+                                       FALSE   33  1333
+
+$CC$`level 4`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                            Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    31    32
+                                       FALSE   10  1356
+
+$CC$`level 4`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+                                            Enriched in GOBP_PHOSPHORYLATION
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    22    41
+                                       FALSE   16  1350
+
+
+
+$CC$`level 5`
+$CC$`level 5`$GOBP_IMMUNE_RESPONSE
+$CC$`level 5`$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_IMMUNE_RESPONSE TRUE FALSE
+                           TRUE    19    27
+                           FALSE   33  2016
+
+
+$CC$`level 5`$GOBP_TISSUE_DEVELOPMENT
+$CC$`level 5`$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+                                   Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE    23    29
+                              FALSE   29  2014
+
+$CC$`level 5`$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+                                   Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE    14    38
+                              FALSE   32  2011
+
+
+$CC$`level 5`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$CC$`level 5`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE    13
+                                                                     FALSE   39
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     30
+                                                                     FALSE  2013
+
+$CC$`level 5`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE     2
+                                                                     FALSE   44
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     41
+                                                                     FALSE  2008
+
+$CC$`level 5`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE     3
+                                                                     FALSE   49
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     40
+                                                                     FALSE  2003
+
+
+$CC$`level 5`$GOBP_PHOSPHORYLATION
+$CC$`level 5`$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    33    29
+                           FALSE   19  2014
+
+$CC$`level 5`$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+                                Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    22    40
+                           FALSE   24  2009
+
+$CC$`level 5`$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+                                Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    32    30
+                           FALSE   20  2013
+
+$CC$`level 5`$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    10    52
+                           FALSE   33  2000
+
+
+$CC$`level 5`$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$CC$`level 5`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+                                            Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    30    48
+                                       FALSE   22  1995
+
+$CC$`level 5`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+                                            Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    14    64
+                                       FALSE   32  1985
+
+$CC$`level 5`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+                                            Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    13    65
+                                       FALSE   39  1978
+
+$CC$`level 5`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                            Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    30    48
+                                       FALSE   13  2004
+
+$CC$`level 5`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+                                            Enriched in GOBP_PHOSPHORYLATION
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    31    47
+                                       FALSE   31  1986
+
+
+
+$CC$`level 6`
+$CC$`level 6`$GOBP_IMMUNE_RESPONSE
+$CC$`level 6`$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_IMMUNE_RESPONSE TRUE FALSE
+                           TRUE    17    35
+                           FALSE   29  2048
+
+
+$CC$`level 6`$GOBP_TISSUE_DEVELOPMENT
+$CC$`level 6`$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+                                   Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE    17    43
+                              FALSE   29  2040
+
+$CC$`level 6`$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+                                   Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE    10    50
+                              FALSE   42  2027
+
+
+$CC$`level 6`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$CC$`level 6`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE     9
+                                                                     FALSE   37
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     29
+                                                                     FALSE  2054
+
+$CC$`level 6`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE     0
+                                                                     FALSE   52
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     38
+                                                                     FALSE  2039
+
+$CC$`level 6`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE     3
+                                                                     FALSE   57
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     35
+                                                                     FALSE  2034
+
+
+$CC$`level 6`$GOBP_PHOSPHORYLATION
+$CC$`level 6`$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    26    32
+                           FALSE   20  2051
+
+$CC$`level 6`$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+                                Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    19    39
+                           FALSE   33  2038
+
+$CC$`level 6`$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+                                Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    26    32
+                           FALSE   34  2037
+
+$CC$`level 6`$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE     9    49
+                           FALSE   29  2042
+
+
+$CC$`level 6`$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$CC$`level 6`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+                                            Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    30    44
+                                       FALSE   16  2039
+
+$CC$`level 6`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+                                            Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    13    61
+                                       FALSE   39  2016
+
+$CC$`level 6`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+                                            Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    11    63
+                                       FALSE   49  2006
+
+$CC$`level 6`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                            Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    29    45
+                                       FALSE    9  2046
+
+$CC$`level 6`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+                                            Enriched in GOBP_PHOSPHORYLATION
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    25    49
+                                       FALSE   33  2022
+
+
+
+$CC$`level 7`
+$CC$`level 7`$GOBP_IMMUNE_RESPONSE
+$CC$`level 7`$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_IMMUNE_RESPONSE TRUE FALSE
+                           TRUE     9    41
+                           FALSE   27  1796
+
+
+$CC$`level 7`$GOBP_TISSUE_DEVELOPMENT
+$CC$`level 7`$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+                                   Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE    13    35
+                              FALSE   23  1802
+
+$CC$`level 7`$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+                                   Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE     5    43
+                              FALSE   45  1780
+
+
+$CC$`level 7`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$CC$`level 7`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE    10
+                                                                     FALSE   26
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     16
+                                                                     FALSE  1821
+
+$CC$`level 7`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE     1
+                                                                     FALSE   49
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     25
+                                                                     FALSE  1798
+
+$CC$`level 7`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE     4
+                                                                     FALSE   44
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     22
+                                                                     FALSE  1803
+
+
+$CC$`level 7`$GOBP_PHOSPHORYLATION
+$CC$`level 7`$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    18    30
+                           FALSE   18  1807
+
+$CC$`level 7`$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+                                Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    16    32
+                           FALSE   34  1791
+
+$CC$`level 7`$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+                                Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    16    32
+                           FALSE   32  1793
+
+$CC$`level 7`$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    10    38
+                           FALSE   16  1809
+
+
+$CC$`level 7`$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$CC$`level 7`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+                                            Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    25    35
+                                       FALSE   11  1802
+
+$CC$`level 7`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+                                            Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE     9    51
+                                       FALSE   41  1772
+
+$CC$`level 7`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+                                            Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE     9    51
+                                       FALSE   39  1774
+
+$CC$`level 7`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                            Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    22    38
+                                       FALSE    4  1809
+
+$CC$`level 7`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+                                            Enriched in GOBP_PHOSPHORYLATION
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    20    40
+                                       FALSE   28  1785
+
+
+
+$CC$`level 8`
+$CC$`level 8`$GOBP_IMMUNE_RESPONSE
+$CC$`level 8`$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_IMMUNE_RESPONSE TRUE FALSE
+                           TRUE     7    32
+                           FALSE   23  1589
+
+
+$CC$`level 8`$GOBP_TISSUE_DEVELOPMENT
+$CC$`level 8`$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+                                   Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE    13    21
+                              FALSE   17  1600
+
+$CC$`level 8`$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+                                   Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE     5    29
+                              FALSE   34  1583
+
+
+$CC$`level 8`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$CC$`level 8`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE    14
+                                                                     FALSE   16
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     24
+                                                                     FALSE  1597
+
+$CC$`level 8`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE     0
+                                                                     FALSE   39
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     38
+                                                                     FALSE  1574
+
+$CC$`level 8`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE     6
+                                                                     FALSE   28
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     32
+                                                                     FALSE  1585
+
+
+$CC$`level 8`$GOBP_PHOSPHORYLATION
+$CC$`level 8`$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    11    21
+                           FALSE   19  1600
+
+$CC$`level 8`$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+                                Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    11    21
+                           FALSE   28  1591
+
+$CC$`level 8`$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+                                Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE     8    24
+                           FALSE   26  1593
+
+$CC$`level 8`$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    11    21
+                           FALSE   27  1592
+
+
+$CC$`level 8`$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$CC$`level 8`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+                                            Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    24    38
+                                       FALSE    6  1583
+
+$CC$`level 8`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+                                            Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE     8    54
+                                       FALSE   31  1558
+
+$CC$`level 8`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+                                            Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    10    52
+                                       FALSE   24  1565
+
+$CC$`level 8`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                            Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    28    34
+                                       FALSE   10  1579
+
+$CC$`level 8`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+                                            Enriched in GOBP_PHOSPHORYLATION
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    19    43
+                                       FALSE   13  1576
+
+
+
+$CC$`level 9`
+$CC$`level 9`$GOBP_IMMUNE_RESPONSE
+$CC$`level 9`$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_IMMUNE_RESPONSE TRUE FALSE
+                           TRUE     7    30
+                           FALSE   16  1204
+
+
+$CC$`level 9`$GOBP_TISSUE_DEVELOPMENT
+$CC$`level 9`$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+                                   Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE     4    14
+                              FALSE   19  1220
+
+$CC$`level 9`$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+                                   Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE     2    16
+                              FALSE   35  1204
+
+
+$CC$`level 9`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$CC$`level 9`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE    12
+                                                                     FALSE   11
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     30
+                                                                     FALSE  1204
+
+$CC$`level 9`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE     0
+                                                                     FALSE   37
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     42
+                                                                     FALSE  1178
+
+$CC$`level 9`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE     3
+                                                                     FALSE   15
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     39
+                                                                     FALSE  1200
+
+
+$CC$`level 9`$GOBP_PHOSPHORYLATION
+$CC$`level 9`$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE     9    18
+                           FALSE   14  1216
+
+$CC$`level 9`$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+                                Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    11    16
+                           FALSE   26  1204
+
+$CC$`level 9`$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+                                Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE     3    24
+                           FALSE   15  1215
+
+$CC$`level 9`$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE     9    18
+                           FALSE   33  1197
+
+
+$CC$`level 9`$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$CC$`level 9`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+                                            Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    14    37
+                                       FALSE    9  1197
+
+$CC$`level 9`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+                                            Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE     5    46
+                                       FALSE   32  1174
+
+$CC$`level 9`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+                                            Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE     2    49
+                                       FALSE   16  1190
+
+$CC$`level 9`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                            Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    29    22
+                                       FALSE   13  1193
+
+$CC$`level 9`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+                                            Enriched in GOBP_PHOSPHORYLATION
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    13    38
+                                       FALSE   14  1192
+
+
+
+$CC$`level 10`
+$CC$`level 10`$GOBP_IMMUNE_RESPONSE
+$CC$`level 10`$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_IMMUNE_RESPONSE TRUE FALSE
+                           TRUE     2    20
+                           FALSE   11   799
+
+
+$CC$`level 10`$GOBP_TISSUE_DEVELOPMENT
+$CC$`level 10`$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+                                   Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE     3     2
+                              FALSE   10   817
+
+$CC$`level 10`$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+                                   Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE     2     3
+                              FALSE   20   807
+
+
+$CC$`level 10`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$CC$`level 10`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE     9
+                                                                     FALSE    4
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     14
+                                                                     FALSE   805
+
+$CC$`level 10`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE     0
+                                                                     FALSE   22
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     23
+                                                                     FALSE   787
+
+$CC$`level 10`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE     1
+                                                                     FALSE    4
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     22
+                                                                     FALSE   805
+
+
+$CC$`level 10`$GOBP_PHOSPHORYLATION
+$CC$`level 10`$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE     5     9
+                           FALSE    8   810
+
+$CC$`level 10`$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+                                Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE     7     7
+                           FALSE   15   803
+
+$CC$`level 10`$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+                                Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE     3    11
+                           FALSE    2   816
+
+$CC$`level 10`$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE     6     8
+                           FALSE   17   801
+
+
+$CC$`level 10`$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$CC$`level 10`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+                                            Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE     8    19
+                                       FALSE    5   800
+
+$CC$`level 10`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+                                            Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE     3    24
+                                       FALSE   19   786
+
+$CC$`level 10`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+                                            Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE     1    26
+                                       FALSE    4   801
+
+$CC$`level 10`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                            Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    16    11
+                                       FALSE    7   798
+
+$CC$`level 10`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+                                            Enriched in GOBP_PHOSPHORYLATION
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE     8    19
+                                       FALSE    6   799
+
+
+
+
+$MF
+$MF$`level 3`
+$MF$`level 3`$GOBP_IMMUNE_RESPONSE
+$MF$`level 3`$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_IMMUNE_RESPONSE TRUE FALSE
+                           TRUE     2     3
+                           FALSE    5   180
+
+
+$MF$`level 3`$GOBP_TISSUE_DEVELOPMENT
+$MF$`level 3`$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+                                   Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE     3     7
+                              FALSE    4   176
+
+$MF$`level 3`$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+                                   Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE     1     9
+                              FALSE    4   176
+
+
+$MF$`level 3`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$MF$`level 3`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE     1
+                                                                     FALSE    6
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE      5
+                                                                     FALSE   178
+
+$MF$`level 3`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE     0
+                                                                     FALSE    5
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE      6
+                                                                     FALSE   179
+
+$MF$`level 3`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE     0
+                                                                     FALSE   10
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE      6
+                                                                     FALSE   174
+
+
+$MF$`level 3`$GOBP_PHOSPHORYLATION
+$MF$`level 3`$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE     4     5
+                           FALSE    3   178
+
+$MF$`level 3`$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+                                Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE     1     8
+                           FALSE    4   177
+
+$MF$`level 3`$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+                                Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE     5     4
+                           FALSE    5   176
+
+$MF$`level 3`$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE     1     8
+                           FALSE    5   176
+
+
+$MF$`level 3`$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$MF$`level 3`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+                                            Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE     3     7
+                                       FALSE    4   176
+
+$MF$`level 3`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+                                            Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE     0    10
+                                       FALSE    5   175
+
+$MF$`level 3`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+                                            Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE     1     9
+                                       FALSE    9   171
+
+$MF$`level 3`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                            Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE     5     5
+                                       FALSE    1   179
+
+$MF$`level 3`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+                                            Enriched in GOBP_PHOSPHORYLATION
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE     3     7
+                                       FALSE    6   174
+
+
+
+$MF$`level 4`
+$MF$`level 4`$GOBP_IMMUNE_RESPONSE
+$MF$`level 4`$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_IMMUNE_RESPONSE TRUE FALSE
+                           TRUE    21    20
+                           FALSE   33   856
+
+
+$MF$`level 4`$GOBP_TISSUE_DEVELOPMENT
+$MF$`level 4`$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+                                   Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE    29    14
+                              FALSE   25   862
+
+$MF$`level 4`$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+                                   Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE    12    31
+                              FALSE   29   858
+
+
+$MF$`level 4`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$MF$`level 4`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE    25
+                                                                     FALSE   29
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     15
+                                                                     FALSE   861
+
+$MF$`level 4`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE     7
+                                                                     FALSE   34
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     33
+                                                                     FALSE   856
+
+$MF$`level 4`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE    21
+                                                                     FALSE   22
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     19
+                                                                     FALSE   868
+
+
+$MF$`level 4`$GOBP_PHOSPHORYLATION
+$MF$`level 4`$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    33    18
+                           FALSE   21   858
+
+$MF$`level 4`$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+                                Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    22    29
+                           FALSE   19   860
+
+$MF$`level 4`$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+                                Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    27    24
+                           FALSE   16   863
+
+$MF$`level 4`$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    15    36
+                           FALSE   25   854
+
+
+$MF$`level 4`$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$MF$`level 4`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+                                            Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    32    29
+                                       FALSE   22   847
+
+$MF$`level 4`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+                                            Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    10    51
+                                       FALSE   31   838
+
+$MF$`level 4`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+                                            Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    16    45
+                                       FALSE   27   842
+
+$MF$`level 4`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                            Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    29    32
+                                       FALSE   11   858
+
+$MF$`level 4`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+                                            Enriched in GOBP_PHOSPHORYLATION
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    21    40
+                                       FALSE   30   839
+
+
+
+$MF$`level 5`
+$MF$`level 5`$GOBP_IMMUNE_RESPONSE
+$MF$`level 5`$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_IMMUNE_RESPONSE TRUE FALSE
+                           TRUE    36    30
+                           FALSE   37  2108
+
+
+$MF$`level 5`$GOBP_TISSUE_DEVELOPMENT
+$MF$`level 5`$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+                                   Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE    31    19
+                              FALSE   42  2119
+
+$MF$`level 5`$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+                                   Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE    14    36
+                              FALSE   52  2109
+
+
+$MF$`level 5`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$MF$`level 5`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE    32
+                                                                     FALSE   41
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     31
+                                                                     FALSE  2107
+
+$MF$`level 5`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE    18
+                                                                     FALSE   48
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     45
+                                                                     FALSE  2100
+
+$MF$`level 5`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE    26
+                                                                     FALSE   24
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     37
+                                                                     FALSE  2124
+
+
+$MF$`level 5`$GOBP_PHOSPHORYLATION
+$MF$`level 5`$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    49    30
+                           FALSE   24  2108
+
+$MF$`level 5`$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+                                Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    32    47
+                           FALSE   34  2098
+
+$MF$`level 5`$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+                                Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    31    48
+                           FALSE   19  2113
+
+$MF$`level 5`$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    29    50
+                           FALSE   34  2098
+
+
+$MF$`level 5`$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$MF$`level 5`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+                                            Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    46    35
+                                       FALSE   27  2103
+
+$MF$`level 5`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+                                            Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    26    55
+                                       FALSE   40  2090
+
+$MF$`level 5`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+                                            Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    20    61
+                                       FALSE   30  2100
+
+$MF$`level 5`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                            Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    37    44
+                                       FALSE   26  2104
+
+$MF$`level 5`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+                                            Enriched in GOBP_PHOSPHORYLATION
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    37    44
+                                       FALSE   42  2088
+
+
+
+$MF$`level 6`
+$MF$`level 6`$GOBP_IMMUNE_RESPONSE
+$MF$`level 6`$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_IMMUNE_RESPONSE TRUE FALSE
+                           TRUE    18    20
+                           FALSE   25  5412
+
+
+$MF$`level 6`$GOBP_TISSUE_DEVELOPMENT
+$MF$`level 6`$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+                                   Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE    16    11
+                              FALSE   27  5421
+
+$MF$`level 6`$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+                                   Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE     9    18
+                              FALSE   29  5419
+
+
+$MF$`level 6`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$MF$`level 6`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE    18
+                                                                     FALSE   25
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     28
+                                                                     FALSE  5404
+
+$MF$`level 6`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE    10
+                                                                     FALSE   28
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     36
+                                                                     FALSE  5401
+
+$MF$`level 6`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE    14
+                                                                     FALSE   13
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     32
+                                                                     FALSE  5416
+
+
+$MF$`level 6`$GOBP_PHOSPHORYLATION
+$MF$`level 6`$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    26    28
+                           FALSE   17  5404
+
+$MF$`level 6`$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+                                Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    19    35
+                           FALSE   19  5402
+
+$MF$`level 6`$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+                                Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    18    36
+                           FALSE    9  5412
+
+$MF$`level 6`$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    13    41
+                           FALSE   33  5388
+
+
+$MF$`level 6`$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$MF$`level 6`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+                                            Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    24    30
+                                       FALSE   19  5402
+
+$MF$`level 6`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+                                            Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    12    42
+                                       FALSE   26  5395
+
+$MF$`level 6`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+                                            Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE     8    46
+                                       FALSE   19  5402
+
+$MF$`level 6`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                            Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    22    32
+                                       FALSE   24  5397
+
+$MF$`level 6`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+                                            Enriched in GOBP_PHOSPHORYLATION
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    15    39
+                                       FALSE   39  5382
+
+
+
+$MF$`level 7`
+$MF$`level 7`$GOBP_IMMUNE_RESPONSE
+$MF$`level 7`$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_IMMUNE_RESPONSE TRUE FALSE
+                           TRUE    11    10
+                           FALSE   28  2742
+
+
+$MF$`level 7`$GOBP_TISSUE_DEVELOPMENT
+$MF$`level 7`$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+                                   Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE    15     4
+                              FALSE   24  2748
+
+$MF$`level 7`$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+                                   Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE     4    15
+                              FALSE   17  2755
+
+
+$MF$`level 7`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$MF$`level 7`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE    15
+                                                                     FALSE   24
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     19
+                                                                     FALSE  2733
+
+$MF$`level 7`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE     7
+                                                                     FALSE   14
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     27
+                                                                     FALSE  2743
+
+$MF$`level 7`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE    11
+                                                                     FALSE    8
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     23
+                                                                     FALSE  2749
+
+
+$MF$`level 7`$GOBP_PHOSPHORYLATION
+$MF$`level 7`$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    26    14
+                           FALSE   13  2738
+
+$MF$`level 7`$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+                                Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    10    30
+                           FALSE   11  2740
+
+$MF$`level 7`$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+                                Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    16    24
+                           FALSE    3  2748
+
+$MF$`level 7`$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    14    26
+                           FALSE   20  2731
+
+
+$MF$`level 7`$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$MF$`level 7`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+                                            Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    28    25
+                                       FALSE   11  2727
+
+$MF$`level 7`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+                                            Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    10    43
+                                       FALSE   11  2727
+
+$MF$`level 7`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+                                            Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE     9    44
+                                       FALSE   10  2728
+
+$MF$`level 7`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                            Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    19    34
+                                       FALSE   15  2723
+
+$MF$`level 7`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+                                            Enriched in GOBP_PHOSPHORYLATION
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    20    33
+                                       FALSE   20  2718
+
+
+
+$MF$`level 8`
+$MF$`level 8`$GOBP_IMMUNE_RESPONSE
+$MF$`level 8`$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_IMMUNE_RESPONSE TRUE FALSE
+                           TRUE     7     2
+                           FALSE   10  1681
+
+
+$MF$`level 8`$GOBP_TISSUE_DEVELOPMENT
+$MF$`level 8`$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+                                   Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE     5     4
+                              FALSE   12  1679
+
+$MF$`level 8`$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+                                   Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE     1     8
+                              FALSE    8  1683
+
+
+$MF$`level 8`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$MF$`level 8`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE     6
+                                                                     FALSE   11
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE      8
+                                                                     FALSE  1675
+
+$MF$`level 8`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE     1
+                                                                     FALSE    8
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     13
+                                                                     FALSE  1678
+
+$MF$`level 8`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE     3
+                                                                     FALSE    6
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     11
+                                                                     FALSE  1680
+
+
+$MF$`level 8`$GOBP_PHOSPHORYLATION
+$MF$`level 8`$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE    12    13
+                           FALSE    5  1670
+
+$MF$`level 8`$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+                                Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE     7    18
+                           FALSE    2  1673
+
+$MF$`level 8`$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+                                Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE     5    20
+                           FALSE    4  1671
+
+$MF$`level 8`$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE     3    22
+                           FALSE   11  1664
+
+
+$MF$`level 8`$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$MF$`level 8`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+                                            Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    10    15
+                                       FALSE    7  1668
+
+$MF$`level 8`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+                                            Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE     5    20
+                                       FALSE    4  1671
+
+$MF$`level 8`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+                                            Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE     2    23
+                                       FALSE    7  1668
+
+$MF$`level 8`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                            Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE     7    18
+                                       FALSE    7  1668
+
+$MF$`level 8`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+                                            Enriched in GOBP_PHOSPHORYLATION
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE    10    15
+                                       FALSE   15  1660
+
+
+
+$MF$`level 9`
+$MF$`level 9`$GOBP_IMMUNE_RESPONSE
+$MF$`level 9`$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_IMMUNE_RESPONSE TRUE FALSE
+                           TRUE     1     2
+                           FALSE    6   820
+
+
+$MF$`level 9`$GOBP_TISSUE_DEVELOPMENT
+$MF$`level 9`$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+                                   Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE     4     2
+                              FALSE    3   820
+
+$MF$`level 9`$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+                                   Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE     0     6
+                              FALSE    3   820
+
+
+$MF$`level 9`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$MF$`level 9`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE     4
+                                                                     FALSE    3
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE      7
+                                                                     FALSE   815
+
+$MF$`level 9`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE     0
+                                                                     FALSE    3
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE     11
+                                                                     FALSE   815
+
+$MF$`level 9`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE     4
+                                                                     FALSE    2
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE      7
+                                                                     FALSE   816
+
+
+$MF$`level 9`$GOBP_PHOSPHORYLATION
+$MF$`level 9`$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE     5     6
+                           FALSE    2   816
+
+$MF$`level 9`$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+                                Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE     2     9
+                           FALSE    1   817
+
+$MF$`level 9`$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+                                Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE     3     8
+                           FALSE    3   815
+
+$MF$`level 9`$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE     2     9
+                           FALSE    9   809
+
+
+$MF$`level 9`$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$MF$`level 9`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+                                            Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE     4     5
+                                       FALSE    3   817
+
+$MF$`level 9`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+                                            Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE     0     9
+                                       FALSE    3   817
+
+$MF$`level 9`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+                                            Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE     2     7
+                                       FALSE    4   816
+
+$MF$`level 9`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                            Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE     5     4
+                                       FALSE    6   814
+
+$MF$`level 9`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+                                            Enriched in GOBP_PHOSPHORYLATION
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE     2     7
+                                       FALSE    9   811
+
+
+
+$MF$`level 10`
+$MF$`level 10`$GOBP_IMMUNE_RESPONSE
+$MF$`level 10`$GOBP_IMMUNE_RESPONSE$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_IMMUNE_RESPONSE TRUE FALSE
+                           TRUE     0     0
+                           FALSE    0   384
+
+
+$MF$`level 10`$GOBP_TISSUE_DEVELOPMENT
+$MF$`level 10`$GOBP_TISSUE_DEVELOPMENT$GOBP_APOPTOTIC_PROCESS
+                                   Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE     0     1
+                              FALSE    0   383
+
+$MF$`level 10`$GOBP_TISSUE_DEVELOPMENT$GOBP_IMMUNE_RESPONSE
+                                   Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_TISSUE_DEVELOPMENT TRUE FALSE
+                              TRUE     0     1
+                              FALSE    0   383
+
+
+$MF$`level 10`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+$MF$`level 10`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_APOPTOTIC_PROCESS
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE     0
+                                                                     FALSE    0
+                                                                          Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE      4
+                                                                     FALSE   380
+
+$MF$`level 10`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_IMMUNE_RESPONSE
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE     0
+                                                                     FALSE    0
+                                                                          Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE      4
+                                                                     FALSE   380
+
+$MF$`level 10`$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS$GOBP_TISSUE_DEVELOPMENT
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS TRUE
+                                                                     TRUE     1
+                                                                     FALSE    0
+                                                                          Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS FALSE
+                                                                     TRUE      3
+                                                                     FALSE   380
+
+
+$MF$`level 10`$GOBP_PHOSPHORYLATION
+$MF$`level 10`$GOBP_PHOSPHORYLATION$GOBP_APOPTOTIC_PROCESS
+                                Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE     0     1
+                           FALSE    0   383
+
+$MF$`level 10`$GOBP_PHOSPHORYLATION$GOBP_IMMUNE_RESPONSE
+                                Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE     0     1
+                           FALSE    0   383
+
+$MF$`level 10`$GOBP_PHOSPHORYLATION$GOBP_TISSUE_DEVELOPMENT
+                                Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE     0     1
+                           FALSE    1   382
+
+$MF$`level 10`$GOBP_PHOSPHORYLATION$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_PHOSPHORYLATION TRUE FALSE
+                           TRUE     0     1
+                           FALSE    4   379
+
+
+$MF$`level 10`$GOBP_CELLULAR_RESPONSE_TO_STRESS
+$MF$`level 10`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_APOPTOTIC_PROCESS
+                                            Enriched in GOBP_APOPTOTIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE     0     1
+                                       FALSE    0   383
+
+$MF$`level 10`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_IMMUNE_RESPONSE
+                                            Enriched in GOBP_IMMUNE_RESPONSE
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE     0     1
+                                       FALSE    0   383
+
+$MF$`level 10`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_TISSUE_DEVELOPMENT
+                                            Enriched in GOBP_TISSUE_DEVELOPMENT
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE     0     1
+                                       FALSE    1   382
+
+$MF$`level 10`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+                                            Enriched in GOBP_POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE     1     0
+                                       FALSE    3   380
+
+$MF$`level 10`$GOBP_CELLULAR_RESPONSE_TO_STRESS$GOBP_PHOSPHORYLATION
+                                            Enriched in GOBP_PHOSPHORYLATION
+Enriched in GOBP_CELLULAR_RESPONSE_TO_STRESS TRUE FALSE
+                                       TRUE     0     1
+                                       FALSE    1   382
+
+
+
+

@@ -53,7 +53,9 @@ devtools::install_github("pablof1988/goSorensen", build_vignettes = TRUE)
 ```
 
 # Data.
-`allOncoGeneLists` is a comprehensive set of gene lists related to cancer obtained from <http://www.bushmanlab.org/links/genelists>. `goSorensen` package save in a "list" object the seven largest lists and these can be loaded by means of  `data("allOncoGeneLists")`
+`allOncoGeneLists` is a comprehensive set of gene lists related to cancer obtained from <http://www.bushmanlab.org/links/genelists>. 
+
+`goSorensen` package saves in a "list" object the seven largest lists of this data set and these can be loaded by means of  `data("allOncoGeneLists")`
 ```{r}
 data("allOncoGeneLists")
 ```
@@ -63,6 +65,16 @@ Names and length of the gene lists to be compared are:
 ```{r}
 sapply(allOncoGeneLists, length)
 ```
+
+A brief description of these gene lists is explained as follow:
+
+- _Atlas_: hybrid gene found in at least one cancer case, or gene amplification or homozygous deletion found in a significant subset of cases in a given cancer-type
+- _Cangenes_: genes mutated at significant frequency in all tumors of human breast and colorectal cancers.
+- _CIS_: Retroviral insertional mutagenesis in hematopoietic tumors
+- _Miscellaneous_: an early version of the CIS database
+- _Vogelstein_: Cancer genes related to chromosomal breakpoints
+- _Sanger_: Compilation from literature: ``genes that are mutated and causally implicated in cancer development"
+- _Waldman_: Gene set is from the Waldman gene database and lists cancer genes sorted by chromosomal locus and includes links to OMIM
 
 # Performing the equivalence test
 

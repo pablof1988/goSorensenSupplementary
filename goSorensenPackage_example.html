@@ -1837,7 +1837,7 @@ function toggle_visibility(id1) {
 
 <h1 class="title toc-ignore">An example for use of goSorensen R-package</h1>
 <p class="author-name"></p>
-<h4 class="date">17 diciembre 2022</h4>
+<h4 class="date">19 diciembre 2022</h4>
 <h4 class="abstract">Abstract</h4>
 <p>This document provides an example for the manipulation of <code>goSorensen</code> R Package, using feature lists achieved from real a real microarray experiment.</p>
 <p>Starting from a fast introduction about the installation of package and description of the data, we explain how to: i) perform the equivalence test from contingency tables of joint enrichment or directly from features lists (either using a normal asymptotic or a bootstrap approximation), ii) collect specific fields of the test results like the p-value, the upper limit of the confidence interval or standard errors iii) obtain another statistics related to the Sorensen-Dice dissimilarity, iv) compute new results for updated input values (i.e. confidence level, irrelevance limit, used distribution, etc) and v) perform all pairwise computes</p>
@@ -1876,7 +1876,8 @@ BiocManager::install(&quot;goSorensen&quot;)</code></pre>
 </div>
 <div id="data." class="section level1" number="2">
 <h1><span class="header-section-number">2</span> Data.</h1>
-<p><code>allOncoGeneLists</code> is a comprehensive set of gene lists related to cancer obtained from <a href="http://www.bushmanlab.org/links/genelists" class="uri">http://www.bushmanlab.org/links/genelists</a>. <code>goSorensen</code> package save in a “list” object the seven largest lists and these can be loaded by means of <code>data(&quot;allOncoGeneLists&quot;)</code></p>
+<p><code>allOncoGeneLists</code> is a comprehensive set of gene lists related to cancer obtained from <a href="http://www.bushmanlab.org/links/genelists" class="uri">http://www.bushmanlab.org/links/genelists</a>.</p>
+<p><code>goSorensen</code> package saves in a “list” object the seven largest lists of this data set and these can be loaded by means of <code>data(&quot;allOncoGeneLists&quot;)</code></p>
 <pre class="r"><code>data(&quot;allOncoGeneLists&quot;)</code></pre>
 <p>Names and length of the gene lists to be compared are:</p>
 <pre class="r"><code>sapply(allOncoGeneLists, length)</code></pre>
@@ -1884,6 +1885,16 @@ BiocManager::install(&quot;goSorensen&quot;)</code></pre>
 ##           991           189           613           187           450 
 ##    Vogelstein       waldman 
 ##           419           426</code></pre>
+<p>A brief description of these gene lists is explained as follow:</p>
+<ul>
+<li><em>Atlas</em>: hybrid gene found in at least one cancer case, or gene amplification or homozygous deletion found in a significant subset of cases in a given cancer-type</li>
+<li><em>Cangenes</em>: genes mutated at significant frequency in all tumors of human breast and colorectal cancers.</li>
+<li><em>CIS</em>: Retroviral insertional mutagenesis in hematopoietic tumors</li>
+<li><em>Miscellaneous</em>: an early version of the CIS database</li>
+<li><em>Vogelstein</em>: Cancer genes related to chromosomal breakpoints</li>
+<li><em>Sanger</em>: Compilation from literature: ``genes that are mutated and causally implicated in cancer development”</li>
+<li><em>Waldman</em>: Gene set is from the Waldman gene database and lists cancer genes sorted by chromosomal locus and includes links to OMIM</li>
+</ul>
 </div>
 <div id="performing-the-equivalence-test" class="section level1" number="3">
 <h1><span class="header-section-number">3</span> Performing the equivalence test</h1>
@@ -1939,7 +1950,7 @@ boot_testResult </code></pre>
 ## (d - d0) / se = -13.576, p-value = 9.999e-05
 ## alternative hypothesis: true equivalence limit d0 is less than 0.2857
 ## 95 percent confidence interval:
-##  0.0000000 0.1237825
+##  0.0000000 0.1220659
 ## sample estimates:
 ## Sorensen dissimilarity 
 ##             0.09803922 
@@ -2024,7 +2035,7 @@ getPvalue(boot_testResult) </code></pre>
 <pre class="r"><code>duppSorensen(enrichTab)</code></pre>
 <pre><code>## [1] 0.1207756</code></pre>
 <pre class="r"><code>duppSorensen(enrichTab, boot = T)</code></pre>
-<pre><code>## [1] 0.123654
+<pre><code>## [1] 0.1230648
 ## attr(,&quot;eff.nboot&quot;)
 ## [1] 10000</code></pre>
 <pre class="r"><code>duppSorensen(allOncoGeneLists$sanger,
@@ -2047,10 +2058,10 @@ getPvalue(boot_testResult) </code></pre>
 ##  dissimilarity (10000 bootstrap replicates)
 ## 
 ## data:  tab
-## (d - d0) / se = -5.5677, p-value = 2e-04
+## (d - d0) / se = -5.5677, p-value = 9.999e-05
 ## alternative hypothesis: true equivalence limit d0 is less than 0.175
 ## 99 percent confidence interval:
-##  0.0000000 0.1350551
+##  0.000000 0.134646
 ## sample estimates:
 ## Sorensen dissimilarity 
 ##             0.09803922 

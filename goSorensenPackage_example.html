@@ -1837,10 +1837,10 @@ function toggle_visibility(id1) {
 
 <h1 class="title toc-ignore">An example for use of goSorensen R-package</h1>
 <p class="author-name"></p>
-<h4 class="date">19 diciembre 2022</h4>
+<h4 class="date">18 enero 2023</h4>
 <h4 class="abstract">Abstract</h4>
-<p>This document provides an example for the manipulation of <code>goSorensen</code> R Package, using feature lists achieved from real a real microarray experiment.</p>
-<p>Starting from a fast introduction about the installation of package and description of the data, we explain how to: i) perform the equivalence test from contingency tables of joint enrichment or directly from features lists (either using a normal asymptotic or a bootstrap approximation), ii) collect specific fields of the test results like the p-value, the upper limit of the confidence interval or standard errors iii) obtain another statistics related to the Sorensen-Dice dissimilarity, iv) compute new results for updated input values (i.e. confidence level, irrelevance limit, used distribution, etc) and v) perform all pairwise computes</p>
+<p>This document provides an example for the manipulation of <code>goSorensen</code> R Package, using feature lists achieved from a real microarray experiment.</p>
+<p>Starting from a fast introduction about the installation of package and description of the data, we explain how to: i) perform the equivalence test from contingency tables of joint enrichment or directly from feature lists (either using a normal asymptotic or a bootstrap approximation to the sampling distribution), ii) collect specific fields of the test results like the p-value, the upper limit of the confidence interval for the Sorensen-Dice dissimilarity or the standard errors of the dissimilarity estimates iii) obtain additional statistics related to the Sorensen-Dice dissimilarity and iv) update preexisting test results (e.g., how to change the confidence level, the limit of equivalence or the testing method -normal approximation or bootstrap)</p>
 <p>This document is based on the vignette “<em>An introduction to package goSorensen</em>” available on the <code>goSorensen</code> R-Package</p>
 <h4 class="package">Package</h4>
 <p>goSorensen 1.0.0</p>
@@ -1864,45 +1864,34 @@ document.addEventListener("DOMContentLoaded", function() {
 <pre class="r"><code>library(goSorensen)</code></pre>
 <div id="installation" class="section level1" number="1">
 <h1><span class="header-section-number">1</span> Installation</h1>
-<p>goSorensen package has to be installed with a working R version <code>(R &gt;= 4.2.0)</code>. Installation could take a few minutes on a regular desktop or laptop. Package can be installed from Bioconductor or <code>devtools</code> package, then it needs to be loaded using <code>library(goSorensen)</code></p>
-<p>To install from Bioconductor (recommended):</p>
+<p>The goSorensen package has to be installed in a working R version <code>(R &gt;= 4.2.0)</code>. Installation could take a few minutes on a regular desktop or laptop. The package can be installed from Bioconductor or from GitHub.</p>
+<p>To install it from Bioconductor (recommended):</p>
 <pre class="r"><code>## Only if BiocManager is not previosly installed:
 install.packages(&quot;BiocManager&quot;)
 
 ## otherwise, directly:
 BiocManager::install(&quot;goSorensen&quot;)</code></pre>
-<p>To install from Github</p>
+<p>To install from GitHub</p>
 <pre class="r"><code>devtools::install_github(&quot;pablof1988/goSorensen&quot;, build_vignettes = TRUE)</code></pre>
 </div>
 <div id="data." class="section level1" number="2">
 <h1><span class="header-section-number">2</span> Data.</h1>
-<p><code>allOncoGeneLists</code> is a comprehensive set of gene lists related to cancer obtained from <a href="http://www.bushmanlab.org/links/genelists" class="uri">http://www.bushmanlab.org/links/genelists</a>.</p>
-<p><code>goSorensen</code> package saves in a “list” object the seven largest lists of this data set and these can be loaded by means of <code>data(&quot;allOncoGeneLists&quot;)</code></p>
+<p><code>allOncoGeneLists</code> is a collection of seven gene lists related to cancer obtained from <a href="http://www.bushmanlab.org/links/genelists" class="uri">http://www.bushmanlab.org/links/genelists</a>. They are included in the package and can be loaded by means of</p>
 <pre class="r"><code>data(&quot;allOncoGeneLists&quot;)</code></pre>
-<p>Names and length of the gene lists to be compared are:</p>
+<p>Names and length of the 7 gene lists:</p>
 <pre class="r"><code>sapply(allOncoGeneLists, length)</code></pre>
 <pre><code>##         atlas      cangenes           cis miscellaneous        sanger 
 ##           991           189           613           187           450 
 ##    Vogelstein       waldman 
 ##           419           426</code></pre>
-<p>A brief description of these gene lists is explained as follow:</p>
-<ul>
-<li><em>Atlas</em>: hybrid gene found in at least one cancer case, or gene amplification or homozygous deletion found in a significant subset of cases in a given cancer-type</li>
-<li><em>Cangenes</em>: genes mutated at significant frequency in all tumors of human breast and colorectal cancers.</li>
-<li><em>CIS</em>: Retroviral insertional mutagenesis in hematopoietic tumors</li>
-<li><em>Miscellaneous</em>: an early version of the CIS database</li>
-<li><em>Vogelstein</em>: Cancer genes related to chromosomal breakpoints</li>
-<li><em>Sanger</em>: Compilation from literature: ``genes that are mutated and causally implicated in cancer development”</li>
-<li><em>Waldman</em>: Gene set is from the Waldman gene database and lists cancer genes sorted by chromosomal locus and includes links to OMIM</li>
-</ul>
 </div>
-<div id="performing-the-equivalence-test" class="section level1" number="3">
-<h1><span class="header-section-number">3</span> Performing the equivalence test</h1>
-<div id="building-2-x-2-contingency-table-of-mutual-enrichment" class="section level2" number="3.1">
-<h2><span class="header-section-number">3.1</span> Building 2 x 2 contingency table of mutual enrichment</h2>
+<div id="performing-the-equivalence-tests" class="section level1" number="3">
+<h1><span class="header-section-number">3</span> Performing the equivalence tests</h1>
+<div id="building-the-2-x-2-contingency-table-of-mutual-enrichment" class="section level2" number="3.1">
+<h2><span class="header-section-number">3.1</span> Building the 2 x 2 contingency table of mutual enrichment:</h2>
 <p>It is possible to build the enrichment contingency table between gene lists (for example “Sanger” and “Vogelstein”) for an specific Ontology and GO level (for example Ontology BP and GO level 4)</p>
 <pre class="r"><code>library(goSorensen)
-data(&quot;humanEntrezIDs&quot;) # necessary to recognize features in ENTREZ id&#39;s
+data(&quot;humanEntrezIDs&quot;) # necessary to recognize  ENTREZhuman gene identifiers
 enrichTab &lt;- buildEnrichTable(allOncoGeneLists$sanger,
                               allOncoGeneLists$Vogelstein,
                               geneUniverse = humanEntrezIDs, 
@@ -1917,9 +1906,9 @@ enrichTab</code></pre>
 </div>
 <div id="equivalence-test" class="section level2" number="3.2">
 <h2><span class="header-section-number">3.2</span> Equivalence test</h2>
-<div id="equivalence-test-from-contingency-table" class="section level3" number="3.2.1">
-<h3><span class="header-section-number">3.2.1</span> Equivalence test from contingency table</h3>
-<p>Equivalence test from contingency table for an equivalence (or irrelevance) limit <span class="math inline">\(d_0=0.2857\)</span> and a significance level <span class="math inline">\(\alpha = 0.05\)</span></p>
+<div id="equivalence-test-from-the-contingency-table" class="section level3" number="3.2.1">
+<h3><span class="header-section-number">3.2.1</span> Equivalence test from the contingency table</h3>
+<p>Equivalence test from this contingency table for an equivalence (or irrelevance) limit <span class="math inline">\(d_0=0.2857\)</span> and a significance level <span class="math inline">\(\alpha = 0.05\)</span></p>
 <pre class="r"><code>contin_testResult &lt;- equivTestSorensen(enrichTab, d0 = 0.2857, 
                                        conf.level = 0.95)
 contin_testResult </code></pre>
@@ -1938,9 +1927,9 @@ contin_testResult </code></pre>
 ## attr(,&quot;se&quot;)
 ## standard error 
 ##     0.01382275</code></pre>
-<p>This process is using by default the normal approximation to the sample distribution of the <span class="math inline">\((\widehat{d}−d)/\widehat{se}\)</span> statistic. Alternatively, it is possible to estimate this distribution by means of bootstrap:</p>
+<p>By default, this function uses a normal approximation for the true sampling distribution of the test statistic <span class="math inline">\((\widehat{d}−d)/\widehat{se}\)</span>. Alternatively, it is possible to estimate this distribution by means of bootstrap:</p>
 <pre class="r"><code>boot_testResult &lt;- equivTestSorensen(enrichTab, d0 = 0.2857, 
-                                       conf.level = 0.95, boot = T)
+                                     conf.level = 0.95, boot = TRUE)
 boot_testResult </code></pre>
 <pre><code>## 
 ##  Bootstrap test for 2x2 contingency tables based on the Sorensen-Dice
@@ -1950,18 +1939,18 @@ boot_testResult </code></pre>
 ## (d - d0) / se = -13.576, p-value = 9.999e-05
 ## alternative hypothesis: true equivalence limit d0 is less than 0.2857
 ## 95 percent confidence interval:
-##  0.0000000 0.1220659
+##  0.0000000 0.1228384
 ## sample estimates:
 ## Sorensen dissimilarity 
 ##             0.09803922 
 ## attr(,&quot;se&quot;)
 ## standard error 
 ##     0.01382275</code></pre>
-<p>For low frequencies in the contingency table, bootstrap is a more conservative but preferable approach, with better type I error control.</p>
+<p>For low frequencies in the contingency table, the bootstrap is a more conservative but preferable approach, with better type I error control.</p>
 </div>
-<div id="equivalence-test-from-feature-lists." class="section level3" number="3.2.2">
-<h3><span class="header-section-number">3.2.2</span> Equivalence test from feature lists.</h3>
-<p>Obtain the test directly from gene lists is also possible:</p>
+<div id="equivalence-test-directly-from-two-gene-lists" class="section level3" number="3.2.2">
+<h3><span class="header-section-number">3.2.2</span> Equivalence test directly from two gene lists:</h3>
+<p>To obtain the test directly from gene lists is also possible:</p>
 <pre class="r"><code>lists_testResult &lt;- equivTestSorensen(allOncoGeneLists$sanger,
                                       allOncoGeneLists$Vogelstein, 
                                       d0 = 0.2857,
@@ -1988,23 +1977,23 @@ lists_testResult</code></pre>
 </div>
 </div>
 </div>
-<div id="accessing-to-specific-fields" class="section level1" number="4">
-<h1><span class="header-section-number">4</span> Accessing to specific fields</h1>
+<div id="accessing-specific-fields-of-the-result" class="section level1" number="4">
+<h1><span class="header-section-number">4</span> Accessing specific fields of the result</h1>
 <p>To access specific fields from the test result:</p>
-<pre class="r"><code># Contingency table from equivalence test using normal approximation:
+<pre class="r"><code># Contingency table:
 getTable(lists_testResult) </code></pre>
 <pre><code>##                   Enriched in Vogelstein
 ## Enriched in Sanger TRUE FALSE
 ##              TRUE   230    12
 ##              FALSE   38  3495</code></pre>
-<pre class="r"><code># Sorensen-Dice dissimilarity from equivalence test using normal approximation:
+<pre class="r"><code># Sorensen-Dice dissimilarity:
 getDissimilarity(lists_testResult) </code></pre>
 <pre><code>## Sorensen dissimilarity 
 ##             0.09803922 
 ## attr(,&quot;se&quot;)
 ## standard error 
 ##     0.01382275</code></pre>
-<pre class="r"><code># p value from equivalence test using normal approximation:
+<pre class="r"><code># p-value from equivalence test using normal approximation:
 getPvalue(lists_testResult) </code></pre>
 <pre><code>##      p-value 
 ## 2.770467e-42</code></pre>
@@ -2012,11 +2001,11 @@ getPvalue(lists_testResult) </code></pre>
 getPvalue(boot_testResult) </code></pre>
 <pre><code>##   p-value 
 ## 9.999e-05</code></pre>
-<p>and the same for other specific fields: standard error <code>getSE</code>, upper bound equivalence limit <code>getUpper</code> and efective number of bootstrap and resamples <code>getNboot</code> (Only available for bootstrap tests)</p>
+<p>and the same for other specific fields: standard error <code>getSE</code>, upper bound equivalence limit <code>getUpper</code> and efective number of bootstrap and resamples <code>getNboot</code> (only available for bootstrap tests)</p>
 </div>
 <div id="other-statistics-related-to-the-sorensen-dice-dissimilarity" class="section level1" number="5">
 <h1><span class="header-section-number">5</span> Other statistics related to the Sorensen-Dice dissimilarity</h1>
-<p>Sometimes, it would be interesting not to perform the full equivalence test but to compute other statistics related to the Sorensen-Dice dissimilarity. This computes would be done from contingency tables or directly from feature lists:</p>
+<p>Sometimes, it would be interesting not to perform the full equivalence test but to compute other statistics related to the Sorensen-Dice dissimilarity. These computations would be done from contingency tables or directly from feature lists:</p>
 <ul>
 <li>The dissimilarity:</li>
 </ul>
@@ -2035,7 +2024,7 @@ getPvalue(boot_testResult) </code></pre>
 <pre class="r"><code>duppSorensen(enrichTab)</code></pre>
 <pre><code>## [1] 0.1207756</code></pre>
 <pre class="r"><code>duppSorensen(enrichTab, boot = T)</code></pre>
-<pre><code>## [1] 0.1230648
+<pre><code>## [1] 0.1233721
 ## attr(,&quot;eff.nboot&quot;)
 ## [1] 10000</code></pre>
 <pre class="r"><code>duppSorensen(allOncoGeneLists$sanger,
@@ -2043,7 +2032,7 @@ getPvalue(boot_testResult) </code></pre>
              geneUniverse = humanEntrezIDs, 
              orgPackg = &quot;org.Hs.eg.db&quot;,
              onto = &quot;BP&quot;, GOLevel = 4, 
-            listNames = c(&quot;Sanger&quot;, &quot;Vogelstein&quot;))</code></pre>
+             listNames = c(&quot;Sanger&quot;, &quot;Vogelstein&quot;))</code></pre>
 <pre><code>## [1] 0.1207756</code></pre>
 <ul>
 <li>the same for <code>seSorensen</code></li>
@@ -2051,8 +2040,8 @@ getPvalue(boot_testResult) </code></pre>
 </div>
 <div id="updating-the-results" class="section level1" number="6">
 <h1><span class="header-section-number">6</span> Updating the results:</h1>
-<p>When some inputs (i.e. confidence level, irrelevance limit, used distribution, etc) have to be updated, it is no necessary to make computes again, only updating is enough</p>
-<pre class="r"><code>upgrade(lists_testResult, d0 = 0.175, conf.level = 0.99, boot = T)</code></pre>
+<p>When some inputs (i.e. confidence level, irrelevance limit, used sampling distribution -normal or bootstrap-, etc) have to be updated, it is no necessary to recompute again from scratch, just update:</p>
+<pre class="r"><code>upgrade(lists_testResult, d0 = 0.175, conf.level = 0.99, boot = TRUE)</code></pre>
 <pre><code>## 
 ##  Bootstrap test for 2x2 contingency tables based on the Sorensen-Dice
 ##  dissimilarity (10000 bootstrap replicates)
@@ -2061,7 +2050,7 @@ getPvalue(boot_testResult) </code></pre>
 ## (d - d0) / se = -5.5677, p-value = 9.999e-05
 ## alternative hypothesis: true equivalence limit d0 is less than 0.175
 ## 99 percent confidence interval:
-##  0.000000 0.134646
+##  0.0000000 0.1357326
 ## sample estimates:
 ## Sorensen dissimilarity 
 ##             0.09803922 
@@ -2071,7 +2060,7 @@ getPvalue(boot_testResult) </code></pre>
 </div>
 <div id="all-pairwise-tests-or-other-computations" class="section level1" number="7">
 <h1><span class="header-section-number">7</span> All pairwise tests (or other computations)</h1>
-<p>For objects of class list, all these functions (<code>equivTestSorensen</code>, <code>dSorensen</code>, <code>seSorensen</code>, <code>duppSorensen</code>) assume a list of character objects containing gene identifiers and all pairwise computations are performed.</p>
+<p>For objects of class “list”, all these functions (<code>equivTestSorensen</code>, <code>dSorensen</code>, <code>seSorensen</code>, <code>duppSorensen</code>) assume a list of character objects containing gene identifiers and all pairwise computations are performed.</p>
 <p>For example, to obtain the matrix of all pairwise Sorensen-Dice dissimilarities:</p>
 <pre class="r"><code>dSorensen(allOncoGeneLists, onto = &quot;BP&quot;, GOLevel = 4, 
           geneUniverse = humanEntrezIDs, orgPackg = &quot;org.Hs.eg.db&quot;)</code></pre>
@@ -2091,11 +2080,16 @@ getPvalue(boot_testResult) </code></pre>
 ## sanger        0.3368794
 ## Vogelstein    0.3118644
 ## waldman       0.0000000</code></pre>
-<p>Similarly, the following code performs all pairwise tests for all Ontologies and GO levels. In this case the Holm-Bonferroni criteria to avoid the inflation of p values for multiple tests is used:</p>
+<p>Similarly, the following code performs all pairwise tests for all Ontologies and GO levels:</p>
 <pre class="r"><code>allOncoResults &lt;- equivTestSorensen(allOncoGeneLists, 
                                     geneUniverse = humanEntrezIDs,
-                                    orgPackg = &quot;org.Hs.eg.db&quot;)</code></pre>
-<p>Visualization of these computes is not good due to the huge number of results obtained, for this reason they were saved in the available file “allOncoResults.rda” using <code>save(allOncoResults, file = &quot;allOncoResults.rda&quot;)</code>. If user wishes to see these results, he can easily load them using <code>load(&quot;allOncoResults.rda&quot;)</code>. In addition, files: “summary_goSorensen.xlsx”, “AllResults_Test.txt” and “AllResults_Tables.txt” are also provided with a summary of these results.</p>
+                                    orgPackg = &quot;org.Hs.eg.db&quot;)
+class(allOncoResults)
+# Display all p-values: 
+getPvalue(allOncoResults)
+# Display all upper confidence limits for the Sorensen-Dice dissimilarity
+getUpper(allOncoResults)</code></pre>
+<p>The visualization of these results is not good due to the huge number of obtained data, for this reason they were saved in the available file “allOncoResults.rda” using <code>save(allOncoResults, file = &quot;allOncoResults.rda&quot;)</code>. If the user wishes to see these results, he can easily load them using <code>load(&quot;allOncoResults.rda&quot;)</code>. In addition, files: “summary_goSorensen.xlsx”, “AllResults_Test.txt” and “AllResults_Tables.txt” are also provided with a summary of these results.</p>
 <p>Remember that, it is possible to access to specific fields of interest for specifics Ontologies and GO levels, for example:</p>
 <pre class="r"><code>load(&quot;allOncoResults.rda&quot;)
 allOncoResults$BP$`level 4`$Vogelstein$sanger</code></pre>

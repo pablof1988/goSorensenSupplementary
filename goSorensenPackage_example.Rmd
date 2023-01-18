@@ -3,9 +3,9 @@ title: "An example for use of goSorensen R-package"
 author: ""
 package: goSorensen
 abstract: >
- This document provides an example for the manipulation of `goSorensen` R Package, using  feature lists  achieved from real a real microarray experiment.
+ This document provides an example for the manipulation of `goSorensen` R Package, using  feature lists  achieved from a real microarray experiment.
  
-  Starting from a fast introduction about the installation of package and description of the data, we explain how to: i) perform the equivalence test from contingency tables of joint enrichment or directly from features lists (either using a normal asymptotic or a bootstrap approximation), ii) collect specific fields of the test results like the p-value, the upper limit of the confidence interval or standard errors  iii) obtain another statistics related to the Sorensen-Dice dissimilarity, iv) compute new results for updated input values (i.e. confidence level, irrelevance limit, used distribution, etc) and v) perform all pairwise computes
+  Starting from a fast introduction about the installation of package and description of the data, we explain how to: i) perform the equivalence test from contingency tables of joint enrichment or directly from feature lists (either using a normal asymptotic or a bootstrap approximation to the sampling distribution), ii) collect specific fields of the test results like the p-value, the upper limit of the confidence interval for the Sorensen-Dice dissimilarity or the standard errors of the dissimilarity estimates  iii) obtain additional statistics related to the Sorensen-Dice dissimilarity and iv) update preexisting test results (e.g., how to change the confidence level, the limit of equivalence or the testing method -normal approximation or bootstrap)
   
   This document is based on the vignette "_An introduction to package goSorensen_" available on the `goSorensen` R-Package
   
@@ -34,9 +34,9 @@ library(goSorensen)
 
 # Installation
 
-goSorensen package has to be installed with a working R version `(R >= 4.2.0)`. Installation could take a few minutes on a regular desktop or laptop. Package can be installed from Bioconductor or `devtools` package, then it needs to be loaded using `library(goSorensen)`
+The goSorensen package has to be installed in a working R version `(R >= 4.2.0)`. Installation could take a few minutes on a regular desktop or laptop. The package can be installed from Bioconductor or from GitHub.
 
-To install from Bioconductor (recommended):
+To install it from Bioconductor (recommended):
 
 ```{r, eval=FALSE}
 ## Only if BiocManager is not previosly installed:
@@ -46,44 +46,31 @@ install.packages("BiocManager")
 BiocManager::install("goSorensen")
 ```
 
-To install from Github
+To install from GitHub
 
 ```{r, eval=FALSE}
 devtools::install_github("pablof1988/goSorensen", build_vignettes = TRUE)
 ```
 
 # Data.
-`allOncoGeneLists` is a comprehensive set of gene lists related to cancer obtained from <http://www.bushmanlab.org/links/genelists>. 
-
-`goSorensen` package saves in a "list" object the seven largest lists of this data set and these can be loaded by means of  `data("allOncoGeneLists")`
+`allOncoGeneLists` is a collection of seven gene lists related to cancer obtained from <http://www.bushmanlab.org/links/genelists>. They are included in the package and can be loaded by means of
 ```{r}
 data("allOncoGeneLists")
 ```
 
-
-Names and length of the gene lists to be compared are:
+Names and length of the 7 gene lists:
 ```{r}
 sapply(allOncoGeneLists, length)
 ```
 
-A brief description of these gene lists is explained as follow:
+# Performing the equivalence tests
 
-- _Atlas_: hybrid gene found in at least one cancer case, or gene amplification or homozygous deletion found in a significant subset of cases in a given cancer-type
-- _Cangenes_: genes mutated at significant frequency in all tumors of human breast and colorectal cancers.
-- _CIS_: Retroviral insertional mutagenesis in hematopoietic tumors
-- _Miscellaneous_: an early version of the CIS database
-- _Vogelstein_: Cancer genes related to chromosomal breakpoints
-- _Sanger_: Compilation from literature: ``genes that are mutated and causally implicated in cancer development"
-- _Waldman_: Gene set is from the Waldman gene database and lists cancer genes sorted by chromosomal locus and includes links to OMIM
-
-# Performing the equivalence test
-
-## Building 2 x 2 contingency table of mutual enrichment
+## Building the 2 x 2 contingency table of mutual enrichment:
 It is possible to build the enrichment contingency table between gene lists (for example "Sanger" and "Vogelstein") for an specific Ontology and GO level (for example Ontology BP and GO level 4)
 
 ```{r, message=FALSE, warning=FALSE}
 library(goSorensen)
-data("humanEntrezIDs") # necessary to recognize features in ENTREZ id's
+data("humanEntrezIDs") # necessary to recognize  ENTREZhuman gene identifiers
 enrichTab <- buildEnrichTable(allOncoGeneLists$sanger,
                               allOncoGeneLists$Vogelstein,
                               geneUniverse = humanEntrezIDs, 
@@ -95,23 +82,23 @@ enrichTab
 
 ## Equivalence test
 
-### Equivalence test from contingency table
-Equivalence test from contingency table for an equivalence (or irrelevance) limit $d_0=0.2857$ and a significance level $\alpha = 0.05$
+### Equivalence test from the contingency table
+Equivalence test from this contingency table for an equivalence (or irrelevance) limit $d_0=0.2857$ and a significance level $\alpha = 0.05$
 ```{r}
 contin_testResult <- equivTestSorensen(enrichTab, d0 = 0.2857, 
                                        conf.level = 0.95)
 contin_testResult 
 ```
-This process is using by default the normal approximation to the sample distribution of the $(\widehat{d}−d)/\widehat{se}$ statistic. Alternatively, it is possible to estimate this distribution by means of bootstrap:
+By default, this function uses a normal approximation for the true sampling distribution of the test statistic $(\widehat{d}−d)/\widehat{se}$. Alternatively, it is possible to estimate this distribution by means of bootstrap:
 ```{r}
 boot_testResult <- equivTestSorensen(enrichTab, d0 = 0.2857, 
-                                       conf.level = 0.95, boot = T)
+                                     conf.level = 0.95, boot = TRUE)
 boot_testResult 
 ```
- For low frequencies in the contingency table, bootstrap is a more conservative  but preferable approach, with better type I error control.
+ For low frequencies in the contingency table, the bootstrap is a more conservative  but preferable approach, with better type I error control.
 
-### Equivalence test from feature lists.
-Obtain the test directly from gene lists is also possible:
+### Equivalence test directly from two gene lists:
+To obtain the test directly from gene lists is also possible:
 ```{r}
 lists_testResult <- equivTestSorensen(allOncoGeneLists$sanger,
                                       allOncoGeneLists$Vogelstein, 
@@ -123,26 +110,26 @@ lists_testResult <- equivTestSorensen(allOncoGeneLists$sanger,
 lists_testResult
 ```
 
-# Accessing to specific fields
+# Accessing specific fields of the result
 To access specific fields from the test result:
 ```{r}
-# Contingency table from equivalence test using normal approximation:
+# Contingency table:
 getTable(lists_testResult) 
 
-# Sorensen-Dice dissimilarity from equivalence test using normal approximation:
+# Sorensen-Dice dissimilarity:
 getDissimilarity(lists_testResult) 
 
-# p value from equivalence test using normal approximation:
+# p-value from equivalence test using normal approximation:
 getPvalue(lists_testResult) 
 
 # p value from equivalence test using bootstrap approximation:
 getPvalue(boot_testResult) 
 ```
 
-and the same for other specific fields: standard error `getSE`, upper bound equivalence limit `getUpper` and efective number of bootstrap and resamples `getNboot` (Only available for bootstrap tests)
+and the same for other specific fields: standard error `getSE`, upper bound equivalence limit `getUpper` and efective number of bootstrap and resamples `getNboot` (only available for bootstrap tests)
 
 # Other statistics related to the Sorensen-Dice dissimilarity
-Sometimes, it would be interesting not to perform the full equivalence test  but to compute other statistics related to the Sorensen-Dice dissimilarity. This computes would be done from contingency tables or directly from feature lists:
+Sometimes, it would be interesting not to perform the full equivalence test  but to compute other statistics related to the Sorensen-Dice dissimilarity. These computations would be done from contingency tables or directly from feature lists:
 
 - The dissimilarity:
 ```{r}
@@ -165,19 +152,19 @@ duppSorensen(allOncoGeneLists$sanger,
              geneUniverse = humanEntrezIDs, 
              orgPackg = "org.Hs.eg.db",
              onto = "BP", GOLevel = 4, 
-            listNames = c("Sanger", "Vogelstein"))
+             listNames = c("Sanger", "Vogelstein"))
 ```
 
 - the same for `seSorensen`
 
 # Updating the results:
-When some inputs (i.e. confidence level, irrelevance limit, used distribution, etc) have to be updated, it is no necessary to make computes again, only updating is enough
+When some inputs (i.e. confidence level, irrelevance limit, used sampling distribution -normal or bootstrap-, etc) have to be updated, it is no necessary to recompute again from scratch, just update:
 ```{r}
-upgrade(lists_testResult, d0 = 0.175, conf.level = 0.99, boot = T)
+upgrade(lists_testResult, d0 = 0.175, conf.level = 0.99, boot = TRUE)
 ```
 
 # All pairwise tests (or other computations)
-For objects of class list, all these functions (`equivTestSorensen`, `dSorensen`,  `seSorensen`, `duppSorensen`) assume a list of character objects containing gene identifiers and all pairwise computations are performed. 
+For objects of class "list", all these functions (`equivTestSorensen`, `dSorensen`,  `seSorensen`, `duppSorensen`) assume a list of character objects containing gene identifiers and all pairwise computations are performed. 
 
 For example, to obtain the matrix of all pairwise Sorensen-Dice dissimilarities:
 ```{r}
@@ -185,13 +172,18 @@ dSorensen(allOncoGeneLists, onto = "BP", GOLevel = 4,
           geneUniverse = humanEntrezIDs, orgPackg = "org.Hs.eg.db")
 ```
 
-Similarly, the following code performs all pairwise tests for all Ontologies and GO levels. In this case the Holm-Bonferroni criteria to avoid the inflation of p values for multiple tests is used:
+Similarly, the following code performs all pairwise tests for all Ontologies and GO levels:
 ```{r, eval=FALSE}
 allOncoResults <- equivTestSorensen(allOncoGeneLists, 
                                     geneUniverse = humanEntrezIDs,
                                     orgPackg = "org.Hs.eg.db")
+class(allOncoResults)
+# Display all p-values: 
+getPvalue(allOncoResults)
+# Display all upper confidence limits for the Sorensen-Dice dissimilarity
+getUpper(allOncoResults)
 ```
-Visualization of  these computes is not good due to the huge number of results obtained, for this reason they were saved in the available file "allOncoResults.rda" using  `save(allOncoResults, file = "allOncoResults.rda")`. If user wishes to see these results, he can easily load them using `load("allOncoResults.rda")`. In addition, files: "summary_goSorensen.xlsx", "AllResults_Test.txt" and "AllResults_Tables.txt" are also provided with a summary of these results.
+The visualization of  these results is not good due to the huge number of  obtained data, for this reason they were saved in the available file "allOncoResults.rda" using  `save(allOncoResults, file = "allOncoResults.rda")`. If the user wishes to see these results, he can easily load them using `load("allOncoResults.rda")`. In addition, files: "summary_goSorensen.xlsx", "AllResults_Test.txt" and "AllResults_Tables.txt" are also provided with a summary of these results.
 
 Remember that, it is possible to access to specific fields of interest for specifics Ontologies and GO levels, for example:
 ```{r}

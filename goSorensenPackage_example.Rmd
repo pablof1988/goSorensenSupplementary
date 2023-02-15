@@ -46,10 +46,14 @@ install.packages("BiocManager")
 BiocManager::install("goSorensen")
 ```
 
-To install from GitHub
-
+To install from GitHub:
 ```{r, eval=FALSE}
 devtools::install_github("pablof1988/goSorensen", build_vignettes = TRUE)
+```
+
+Finally, load the package to use it:
+```{r}
+library(goSorensen)
 ```
 
 # Data.
@@ -69,7 +73,6 @@ sapply(allOncoGeneLists, length)
 It is possible to build the enrichment contingency table between gene lists (for example "Sanger" and "Vogelstein") for an specific Ontology and GO level (for example Ontology BP and GO level 4)
 
 ```{r, message=FALSE, warning=FALSE}
-library(goSorensen)
 data("humanEntrezIDs") # necessary to recognize  ENTREZhuman gene identifiers
 enrichTab <- buildEnrichTable(allOncoGeneLists$sanger,
                               allOncoGeneLists$Vogelstein,
@@ -78,6 +81,24 @@ enrichTab <- buildEnrichTable(allOncoGeneLists$sanger,
                               onto = "BP", GOLevel = 4, 
                               listNames = c("Sanger", "Vogelstein"))
 enrichTab
+```
+
+But it is also possible to build all pairwise enrichment contingency tables for all the gene lists of data set (`allOncoGeneLists` in this case) for an specific Ontology and GO level (for example Ontology BP and GO level 4):
+```{r, eval=FALSE}
+# The next code spends a lot of time due to the huge quantity of computed 
+# results. Instead of running this line, we suggest loading the results which 
+# are available in the file "allEnrichTable.rda" using:
+# load("allEnrichTable.rda")
+allEnrichTable <- buildEnrichTable(allOncoGeneLists, 
+                                   geneUniverse = humanEntrezIDs, 
+                                   orgPackg = "org.Hs.eg.db",
+                                   onto = "BP", GOLevel = 4)
+```
+
+Of course, it is possible to filter an specific contingency table:
+```{r}
+load("allEnrichTable.rda")
+allEnrichTable$miscellaneous$atlas
 ```
 
 ## Equivalence test
@@ -172,25 +193,37 @@ dSorensen(allOncoGeneLists, onto = "BP", GOLevel = 4,
           geneUniverse = humanEntrezIDs, orgPackg = "org.Hs.eg.db")
 ```
 
-Similarly, the following code performs all pairwise tests for all Ontologies and GO levels:
+Similarly, the following code performs all pairwise tests for the  ontologies ( "BP", "MF" and "CC", all by default) and GO levels (from 3 to 10 by default) desired
+
 ```{r, eval=FALSE}
-allOncoResults <- equivTestSorensen(allOncoGeneLists, 
+# The next code spends a lot of time due to the huge quantity of computed 
+# results. Instead of running this line, we suggest loading the results which 
+# are available in the file "allOncoResults.rda" using  
+# load("allOncoResults.rda")
+allOncoResults <- allEquivTestSorensen(allOncoGeneLists, 
                                     geneUniverse = humanEntrezIDs,
                                     orgPackg = "org.Hs.eg.db")
-class(allOncoResults)
-# Display all p-values: 
-getPvalue(allOncoResults)
-# Display all upper confidence limits for the Sorensen-Dice dissimilarity
-getUpper(allOncoResults)
 ```
-The visualization of  these results is not good due to the huge number of  obtained data, for this reason they were saved in the available file "allOncoResults.rda" using  `save(allOncoResults, file = "allOncoResults.rda")`. If the user wishes to see these results, he can easily load them using `load("allOncoResults.rda")`. In addition, files: "summary_goSorensen.xlsx", "AllResults_Test.txt" and "AllResults_Tables.txt" are also provided with a summary of these results.
+In addition, files: "summary_goSorensen.xlsx", "AllResults_Test.txt" and "AllResults_Tables.txt" are also provided with a summary of these results.
 
 Remember that, it is possible to access to specific fields of interest for specifics Ontologies and GO levels, for example:
 ```{r}
 load("allOncoResults.rda")
+
+# Results for an specific ontology and level:
 allOncoResults$BP$`level 4`$Vogelstein$sanger
-getPvalue(allOncoResults$BP$`level 4`$Vogelstein$sanger)
+
+# p value for an specific ontology and level:
+getPvalue(allOncoResults, onto = "BP", GOLevel = 4, 
+          listNames = c("Vogelstein","sanger"))
+
+# Display all p-values: 
+# getPvalue(allOncoResults)
+
+# Display all upper confidence limits for the Sorensen-Dice dissimilarity
+# getUpper(allOncoResults)
 ```
+
 
 # Session information {.unnumbered}
 

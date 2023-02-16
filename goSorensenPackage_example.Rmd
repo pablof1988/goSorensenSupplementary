@@ -1,11 +1,11 @@
 ---
-title: "An example for use of goSorensen R-package"
+title: "An example of using the goSorensen R-package"
 author: ""
 package: goSorensen
 abstract: >
- This document provides an example for the manipulation of `goSorensen` R Package, using  feature lists  achieved from a real microarray experiment.
+ This document provides an example for the manipulation of the `goSorensen` R Package, using a compilation of feature lists  coming from true genomic experiments.
  
-  Starting from a fast introduction about the installation of package and description of the data, we explain how to: i) perform the equivalence test from contingency tables of joint enrichment or directly from feature lists (either using a normal asymptotic or a bootstrap approximation to the sampling distribution), ii) collect specific fields of the test results like the p-value, the upper limit of the confidence interval for the Sorensen-Dice dissimilarity or the standard errors of the dissimilarity estimates  iii) obtain additional statistics related to the Sorensen-Dice dissimilarity and iv) update preexisting test results (e.g., how to change the confidence level, the limit of equivalence or the testing method -normal approximation or bootstrap)
+  Starting from a fast introduction about the installation of the package and a description of these data, we explain how to: i) perform the equivalence test from contingency tables of joint enrichment or directly from feature lists (either using a normal asymptotic or a bootstrap approximation to the sampling distribution), ii) collect specific fields of the test results like the p-value, the upper limit of the confidence interval for the Sorensen-Dice dissimilarity or the standard errors of the dissimilarity estimates  iii) obtain additional statistics related to the Sorensen-Dice dissimilarity and iv) update preexisting test results, e.g., how to change the confidence level, the limit of equivalence or the testing method -normal approximation or bootstrap.
   
   This document is based on the vignette "_An introduction to package goSorensen_" available on the `goSorensen` R-Package
   
@@ -70,7 +70,7 @@ sapply(allOncoGeneLists, length)
 # Performing the equivalence tests
 
 ## Building the 2 x 2 contingency table of mutual enrichment:
-It is possible to build the enrichment contingency table between gene lists (for example "Sanger" and "Vogelstein") for an specific Ontology and GO level (for example Ontology BP and GO level 4)
+It is possible to build the enrichment contingency table between gene lists (for example "sanger" and "Vogelstein") for an specific Ontology and GO level (for example Ontology BP and GO level 4):
 
 ```{r, message=FALSE, warning=FALSE}
 data("humanEntrezIDs") # necessary to recognize  ENTREZhuman gene identifiers
@@ -83,10 +83,10 @@ enrichTab <- buildEnrichTable(allOncoGeneLists$sanger,
 enrichTab
 ```
 
-But it is also possible to build all pairwise enrichment contingency tables for all the gene lists of data set (`allOncoGeneLists` in this case) for an specific Ontology and GO level (for example Ontology BP and GO level 4):
+But it is also possible to build all pairwise enrichment contingency tables for all the gene lists in a data set (`allOncoGeneLists` in this case) for a specific Ontology and GO level (for example Ontology BP and GO level 4):
 ```{r, eval=FALSE}
-# The next code spends a lot of time due to the huge quantity of computed 
-# results. Instead of running this line, we suggest loading the results which 
+# The next code spends a lot of time due to the huge quantity of computations.
+# Instead of running this line, we suggest loading the results which 
 # are available in the file "allEnrichTable.rda" using:
 # load("allEnrichTable.rda")
 allEnrichTable <- buildEnrichTable(allOncoGeneLists, 
@@ -104,7 +104,7 @@ allEnrichTable$miscellaneous$atlas
 ## Equivalence test
 
 ### Equivalence test from the contingency table
-Equivalence test from this contingency table for an equivalence (or irrelevance) limit $d_0=0.2857$ and a significance level $\alpha = 0.05$
+The equivalence test from this contingency table for an equivalence (or irrelevance) limit $d_0=0.2857$ and a significance level $\alpha = 0.05$ can be performed as follows:
 ```{r}
 contin_testResult <- equivTestSorensen(enrichTab, d0 = 0.2857, 
                                        conf.level = 0.95)
@@ -119,10 +119,9 @@ boot_testResult
  For low frequencies in the contingency table, the bootstrap is a more conservative  but preferable approach, with better type I error control.
 
 ### Equivalence test directly from two gene lists:
-To obtain the test directly from gene lists is also possible:
+To obtain the test directly from the gene lists is also possible, but this may take some time because the joint enrichment contingency table must be created, as an internal first step:
 ```{r}
-lists_testResult <- equivTestSorensen(allOncoGeneLists$sanger,
-                                      allOncoGeneLists$Vogelstein, 
+lists_testResult <- equivTestSorensen(allOncoGeneLists$sanger, allOncoGeneLists$Vogelstein, 
                                       d0 = 0.2857,
                                       geneUniverse = humanEntrezIDs, 
                                       orgPackg = "org.Hs.eg.db",
@@ -147,16 +146,15 @@ getPvalue(lists_testResult)
 getPvalue(boot_testResult) 
 ```
 
-and the same for other specific fields: standard error `getSE`, upper bound equivalence limit `getUpper` and efective number of bootstrap and resamples `getNboot` (only available for bootstrap tests)
+and the same for other test result fields: standard error `getSE`, upper bound equivalence limit `getUpper`, initially planned number of bootstrap resamples `getNboot` and number of effective bootstrap resamples `getEffNboot` (sometimes, the computation of the test statistic may produce a non-finite result). The last two functions are only available for bootstrap tests.
 
 # Other statistics related to the Sorensen-Dice dissimilarity
-Sometimes, it would be interesting not to perform the full equivalence test  but to compute other statistics related to the Sorensen-Dice dissimilarity. These computations would be done from contingency tables or directly from feature lists:
+Sometimes, it would be interesting not to perform the full equivalence test  but to compute other statistics related to the Sorensen-Dice dissimilarity. These computations would be done from contingency tables or directly from feature lists. Again, computations from the contingency table are much faster:
 
 - The dissimilarity:
 ```{r}
 dSorensen(enrichTab)
-dSorensen(allOncoGeneLists$sanger,
-          allOncoGeneLists$Vogelstein,
+dSorensen(allOncoGeneLists$sanger, allOncoGeneLists$Vogelstein,
           geneUniverse = humanEntrezIDs, 
           orgPackg = "org.Hs.eg.db",
           onto = "BP", GOLevel = 4, 
@@ -179,13 +177,26 @@ duppSorensen(allOncoGeneLists$sanger,
 - the same for `seSorensen`
 
 # Updating the results:
-When some inputs (i.e. confidence level, irrelevance limit, used sampling distribution -normal or bootstrap-, etc) have to be updated, it is no necessary to recompute again from scratch, just update:
+When some test inputs (i.e. confidence level, irrelevance limit, used sampling distribution -normal or bootstrap-, etc) have to be updated, it is no necessary to recompute again from scratch, just update:
 ```{r}
 upgrade(lists_testResult, d0 = 0.175, conf.level = 0.99, boot = TRUE)
 ```
 
 # All pairwise tests (or other computations)
-For objects of class "list", all these functions (`equivTestSorensen`, `dSorensen`,  `seSorensen`, `duppSorensen`) assume a list of character objects containing gene identifiers and all pairwise computations are performed. 
+The fastest way of performing all pairwise tests is to to compute them from the object `allEnrichTable` containing all the pairwise contingency tables:
+```{r}
+pairwiseTests <- equivTestSorensen(allEnrichTable)
+getPvalue(pairwiseTests)
+bootPairwiseTests <- equivTestSorensen(allEnrichTable, boot = TRUE)
+getPvalue(bootPairwiseTests)
+```
+
+Functions `dSorensen`,  `seSorensen` and `duppSorensen` perform in a similar way. For example, to obtain the Sorensen-Dice dissimilarities matrix:
+```{r}
+dSorensen(allEnrichTable)
+```
+
+For objects of class "list", all these functions (`equivTestSorensen`, `dSorensen`,  `seSorensen`, `duppSorensen`) assume a list of character vectors containing gene identifiers and all pairwise computations are performed. But this approach is much slower than the previous one as the contingency tables must be previously obtained.
 
 For example, to obtain the matrix of all pairwise Sorensen-Dice dissimilarities:
 ```{r}
@@ -193,16 +204,17 @@ dSorensen(allOncoGeneLists, onto = "BP", GOLevel = 4,
           geneUniverse = humanEntrezIDs, orgPackg = "org.Hs.eg.db")
 ```
 
-Similarly, the following code performs all pairwise tests for the  ontologies ( "BP", "MF" and "CC", all by default) and GO levels (from 3 to 10 by default) desired
+# Scanning tests along GO ontologies and levels
+The following code performs all pairwise tests for the specified ontologies (any subset of "BP", "MF", "CC", all them by default) and GO levels (from 3 to 10 by default):
 
 ```{r, eval=FALSE}
 # The next code spends a lot of time due to the huge quantity of computed 
-# results. Instead of running this line, we suggest loading the results which 
-# are available in the file "allOncoResults.rda" using  
+# results. Instead of running this line, we suggest loading its result which 
+# is available in the file "allOncoResults.rda" using  
 # load("allOncoResults.rda")
 allOncoResults <- allEquivTestSorensen(allOncoGeneLists, 
-                                    geneUniverse = humanEntrezIDs,
-                                    orgPackg = "org.Hs.eg.db")
+                                       geneUniverse = humanEntrezIDs,
+                                       orgPackg = "org.Hs.eg.db")
 ```
 In addition, files: "summary_goSorensen.xlsx", "AllResults_Test.txt" and "AllResults_Tables.txt" are also provided with a summary of these results.
 
@@ -213,7 +225,7 @@ load("allOncoResults.rda")
 # Results for an specific ontology and level:
 allOncoResults$BP$`level 4`$Vogelstein$sanger
 
-# p value for an specific ontology and level:
+# p-value for an specific ontology and level:
 getPvalue(allOncoResults, onto = "BP", GOLevel = 4, 
           listNames = c("Vogelstein","sanger"))
 

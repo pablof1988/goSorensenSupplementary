@@ -3,7 +3,7 @@ title: "An example of using the goSorensen R-package"
 author: ""
 package: goSorensen
 abstract: >
- This document provides an example for the manipulation of the `goSorensen` R Package, using a compilation of feature lists  coming from true genomic experiments.
+ This document provides an example for the usage of the `goSorensen` R Package, using a compilation of feature lists  coming from true genomic experiments.
  
   Starting from a fast introduction about the installation of the package and a description of these data, we explain how to: i) perform the equivalence test from contingency tables of joint enrichment or directly from feature lists (either using a normal asymptotic or a bootstrap approximation to the sampling distribution), ii) collect specific fields of the test results like the p-value, the upper limit of the confidence interval for the Sorensen-Dice dissimilarity or the standard errors of the dissimilarity estimates  iii) obtain additional statistics related to the Sorensen-Dice dissimilarity and iv) update preexisting test results, e.g., how to change the confidence level, the limit of equivalence or the testing method -normal approximation or bootstrap.
   

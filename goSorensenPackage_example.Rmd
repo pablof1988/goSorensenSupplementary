@@ -208,8 +208,8 @@ dSorensen(allOncoGeneLists, onto = "BP", GOLevel = 4,
 The following code performs all pairwise tests for the specified ontologies (any subset of "BP", "MF", "CC", all them by default) and GO levels (from 3 to 10 by default):
 
 ```{r, eval=FALSE}
-# The next code spends a lot of time due to the huge quantity of computed 
-# results. Instead of running this line, we suggest loading its result which 
+# The next code spends a lot of time due to the huge quantity of computations. 
+# Instead of running this line, we suggest loading its result, which 
 # is available in the file "allOncoResults.rda" using  
 # load("allOncoResults.rda")
 allOncoResults <- allEquivTestSorensen(allOncoGeneLists, 

@@ -130,7 +130,7 @@ lists_testResult <- equivTestSorensen(allOncoGeneLists$sanger, allOncoGeneLists$
 lists_testResult
 ```
 
-# Accessing specific fields of the result
+## Accessing specific fields of the result
 To access specific fields from the test result:
 ```{r}
 # Contingency table:
@@ -146,7 +146,13 @@ getPvalue(lists_testResult)
 getPvalue(boot_testResult) 
 ```
 
-and the same for other test result fields: standard error `getSE`, upper bound equivalence limit `getUpper`, initially planned number of bootstrap resamples `getNboot` and number of effective bootstrap resamples `getEffNboot` (sometimes, the computation of the test statistic may produce a non-finite result). The last two functions are only available for bootstrap tests.
+and the same for other test result fields: standard error `getSE`, upper bound equivalence limit `getUpper`, initially planned number of bootstrap resamples `getNboot` and number of effective bootstrap resamples `getEffNboot` (sometimes, the computation of the test statistic may produce a non-finite result). The last two functions are only adequate for bootstrap tests, otherwise they return a NA value.
+
+## Updating the results:
+When some test inputs (i.e. confidence level, irrelevance limit, used sampling distribution -normal or bootstrap-, etc) have to be updated, it is no necessary to recompute again from scratch, just update:
+```{r}
+upgrade(lists_testResult, d0 = 0.175, conf.level = 0.99, boot = TRUE)
+```
 
 # Other statistics related to the Sorensen-Dice dissimilarity
 Sometimes, it would be interesting not to perform the full equivalence test  but to compute other statistics related to the Sorensen-Dice dissimilarity. These computations would be done from contingency tables or directly from feature lists. Again, computations from the contingency table are much faster:
@@ -176,12 +182,6 @@ duppSorensen(allOncoGeneLists$sanger,
 
 - the same for `seSorensen`
 
-# Updating the results:
-When some test inputs (i.e. confidence level, irrelevance limit, used sampling distribution -normal or bootstrap-, etc) have to be updated, it is no necessary to recompute again from scratch, just update:
-```{r}
-upgrade(lists_testResult, d0 = 0.175, conf.level = 0.99, boot = TRUE)
-```
-
 # All pairwise tests (or other computations)
 The fastest way of performing all pairwise tests is to to compute them from the object `allEnrichTable` containing all the pairwise contingency tables:
 ```{r}
@@ -191,12 +191,18 @@ bootPairwiseTests <- equivTestSorensen(allEnrichTable, boot = TRUE)
 getPvalue(bootPairwiseTests)
 ```
 
+To update all pairwise test results:
+```{r}
+# p-values for an equivalence limit 0.2857 (instead of the default 0.4444)
+getPvalue(upgrade(pairwiseTests, d0 = 0.2857))
+```
+
 Functions `dSorensen`,  `seSorensen` and `duppSorensen` perform in a similar way. For example, to obtain the Sorensen-Dice dissimilarities matrix:
 ```{r}
 dSorensen(allEnrichTable)
 ```
 
-For objects of class "list", all these functions (`equivTestSorensen`, `dSorensen`,  `seSorensen`, `duppSorensen`) assume a list of character vectors containing gene identifiers and all pairwise computations are performed. But this approach is much slower than the previous one as the contingency tables must be previously obtained.
+For objects of class "list", all these functions (`equivTestSorensen`, `dSorensen`,  `seSorensen`, `duppSorensen`) assume a list of character vectors containing gene identifiers and all pairwise tests are also performed. But this approach is much slower than the previous one as the contingency tables must be previously obtained.
 
 For example, to obtain the matrix of all pairwise Sorensen-Dice dissimilarities:
 ```{r}
@@ -236,6 +242,13 @@ getPvalue(allOncoResults, onto = "BP", GOLevel = 4,
 # getUpper(allOncoResults)
 ```
 
+It is also possible to upgrade all these test results. For example to obtain the bootstrap tests:
+```{r}
+bootAllOncoResults <- upgrade(allOncoResults, boot = TRUE)
+getPvalue(bootAllOncoResults, onto = "BP", GOLevel = 4, 
+          listNames = c("Vogelstein","sanger"))
+
+```
 
 # Session information {.unnumbered}
 

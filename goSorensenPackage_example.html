@@ -11,6 +11,7 @@
 
 <meta name="author" content />
 
+<meta name="date" content="2023-02-17" />
 
 <title>An example of using the goSorensen R-package</title>
 
@@ -1837,7 +1838,7 @@ function toggle_visibility(id1) {
 
 <h1 class="title toc-ignore">An example of using the goSorensen R-package</h1>
 <p class="author-name"></p>
-<h4 class="date">16 febrero 2023</h4>
+<h4 class="date">17 February 2023</h4>
 <h4 class="abstract">Abstract</h4>
 <p>This document provides an example for the usage of the <code>goSorensen</code> R Package, using a compilation of feature lists coming from true genomic experiments.</p>
 <p>Starting from a fast introduction about the installation of the package and a description of these data, we explain how to: i) perform the equivalence test from contingency tables of joint enrichment or directly from feature lists (either using a normal asymptotic or a bootstrap approximation to the sampling distribution), ii) collect specific fields of the test results like the p-value, the upper limit of the confidence interval for the Sorensen-Dice dissimilarity or the standard errors of the dissimilarity estimates iii) obtain additional statistics related to the Sorensen-Dice dissimilarity and iv) update preexisting test results, e.g., how to change the confidence level, the limit of equivalence or the testing method -normal approximation or bootstrap.</p>
@@ -1956,7 +1957,7 @@ boot_testResult </code></pre>
 ## (d - d0) / se = -13.576, p-value = 9.999e-05
 ## alternative hypothesis: true equivalence limit d0 is less than 0.2857
 ## 95 percent confidence interval:
-##  0.0000000 0.1227889
+##  0.0000000 0.1235437
 ## sample estimates:
 ## Sorensen dissimilarity 
 ##             0.09803922 
@@ -1992,9 +1993,8 @@ lists_testResult</code></pre>
 ##     0.01382275</code></pre>
 </div>
 </div>
-</div>
-<div id="accessing-specific-fields-of-the-result" class="section level1" number="4">
-<h1><span class="header-section-number">4</span> Accessing specific fields of the result</h1>
+<div id="accessing-specific-fields-of-the-result" class="section level2" number="3.3">
+<h2><span class="header-section-number">3.3</span> Accessing specific fields of the result</h2>
 <p>To access specific fields from the test result:</p>
 <pre class="r"><code># Contingency table:
 getTable(lists_testResult) </code></pre>
@@ -2017,10 +2017,31 @@ getPvalue(lists_testResult) </code></pre>
 getPvalue(boot_testResult) </code></pre>
 <pre><code>##   p-value 
 ## 9.999e-05</code></pre>
-<p>and the same for other test result fields: standard error <code>getSE</code>, upper bound equivalence limit <code>getUpper</code>, initially planned number of bootstrap resamples <code>getNboot</code> and number of effective bootstrap resamples <code>getEffNboot</code> (sometimes, the computation of the test statistic may produce a non-finite result). The last two functions are only available for bootstrap tests.</p>
+<p>and the same for other test result fields: standard error <code>getSE</code>, upper bound equivalence limit <code>getUpper</code>, initially planned number of bootstrap resamples <code>getNboot</code> and number of effective bootstrap resamples <code>getEffNboot</code> (sometimes, the computation of the test statistic may produce a non-finite result). The last two functions are only adequate for bootstrap tests, otherwise they return a NA value.</p>
 </div>
-<div id="other-statistics-related-to-the-sorensen-dice-dissimilarity" class="section level1" number="5">
-<h1><span class="header-section-number">5</span> Other statistics related to the Sorensen-Dice dissimilarity</h1>
+<div id="updating-the-results" class="section level2" number="3.4">
+<h2><span class="header-section-number">3.4</span> Updating the results:</h2>
+<p>When some test inputs (i.e. confidence level, irrelevance limit, used sampling distribution -normal or bootstrap-, etc) have to be updated, it is no necessary to recompute again from scratch, just update:</p>
+<pre class="r"><code>upgrade(lists_testResult, d0 = 0.175, conf.level = 0.99, boot = TRUE)</code></pre>
+<pre><code>## 
+##  Bootstrap test for 2x2 contingency tables based on the Sorensen-Dice
+##  dissimilarity (10000 bootstrap replicates)
+## 
+## data:  tab
+## (d - d0) / se = -5.5677, p-value = 9.999e-05
+## alternative hypothesis: true equivalence limit d0 is less than 0.175
+## 99 percent confidence interval:
+##  0.0000000 0.1342055
+## sample estimates:
+## Sorensen dissimilarity 
+##             0.09803922 
+## attr(,&quot;se&quot;)
+## standard error 
+##     0.01382275</code></pre>
+</div>
+</div>
+<div id="other-statistics-related-to-the-sorensen-dice-dissimilarity" class="section level1" number="4">
+<h1><span class="header-section-number">4</span> Other statistics related to the Sorensen-Dice dissimilarity</h1>
 <p>Sometimes, it would be interesting not to perform the full equivalence test but to compute other statistics related to the Sorensen-Dice dissimilarity. These computations would be done from contingency tables or directly from feature lists. Again, computations from the contingency table are much faster:</p>
 <ul>
 <li>The dissimilarity:</li>
@@ -2039,7 +2060,7 @@ getPvalue(boot_testResult) </code></pre>
 <pre class="r"><code>duppSorensen(enrichTab)</code></pre>
 <pre><code>## [1] 0.1207756</code></pre>
 <pre class="r"><code>duppSorensen(enrichTab, boot = T)</code></pre>
-<pre><code>## [1] 0.1233526
+<pre><code>## [1] 0.1232157
 ## attr(,&quot;eff.nboot&quot;)
 ## [1] 10000</code></pre>
 <pre class="r"><code>duppSorensen(allOncoGeneLists$sanger,
@@ -2053,28 +2074,8 @@ getPvalue(boot_testResult) </code></pre>
 <li>the same for <code>seSorensen</code></li>
 </ul>
 </div>
-<div id="updating-the-results" class="section level1" number="6">
-<h1><span class="header-section-number">6</span> Updating the results:</h1>
-<p>When some test inputs (i.e. confidence level, irrelevance limit, used sampling distribution -normal or bootstrap-, etc) have to be updated, it is no necessary to recompute again from scratch, just update:</p>
-<pre class="r"><code>upgrade(lists_testResult, d0 = 0.175, conf.level = 0.99, boot = TRUE)</code></pre>
-<pre><code>## 
-##  Bootstrap test for 2x2 contingency tables based on the Sorensen-Dice
-##  dissimilarity (10000 bootstrap replicates)
-## 
-## data:  tab
-## (d - d0) / se = -5.5677, p-value = 2e-04
-## alternative hypothesis: true equivalence limit d0 is less than 0.175
-## 99 percent confidence interval:
-##  0.0000000 0.1354189
-## sample estimates:
-## Sorensen dissimilarity 
-##             0.09803922 
-## attr(,&quot;se&quot;)
-## standard error 
-##     0.01382275</code></pre>
-</div>
-<div id="all-pairwise-tests-or-other-computations" class="section level1" number="7">
-<h1><span class="header-section-number">7</span> All pairwise tests (or other computations)</h1>
+<div id="all-pairwise-tests-or-other-computations" class="section level1" number="5">
+<h1><span class="header-section-number">5</span> All pairwise tests (or other computations)</h1>
 <p>The fastest way of performing all pairwise tests is to to compute them from the object <code>allEnrichTable</code> containing all the pairwise contingency tables:</p>
 <pre class="r"><code>pairwiseTests &lt;- equivTestSorensen(allEnrichTable)
 getPvalue(pairwiseTests)</code></pre>
@@ -2105,13 +2106,13 @@ getPvalue(bootPairwiseTests)</code></pre>
 <pre><code>##           cangenes.atlas.p-value                cis.atlas.p-value 
 ##                              NaN                       1.00000000 
 ##             cis.cangenes.p-value      miscellaneous.atlas.p-value 
-##                              NaN                       0.00399960 
+##                              NaN                       0.00359964 
 ##   miscellaneous.cangenes.p-value        miscellaneous.cis.p-value 
-##                              NaN                       0.99940006 
+##                              NaN                       0.99950005 
 ##             sanger.atlas.p-value          sanger.cangenes.p-value 
-##                       0.00059994                              NaN 
+##                       0.00019998                              NaN 
 ##               sanger.cis.p-value     sanger.miscellaneous.p-value 
-##                       1.00000000                       0.00009999 
+##                       1.00000000                       0.00019998 
 ##         Vogelstein.atlas.p-value      Vogelstein.cangenes.p-value 
 ##                       0.00009999                              NaN 
 ##           Vogelstein.cis.p-value Vogelstein.miscellaneous.p-value 
@@ -2124,6 +2125,31 @@ getPvalue(bootPairwiseTests)</code></pre>
 ##                       0.00009999                       0.00009999 
 ##       waldman.Vogelstein.p-value 
 ##                       0.00009999</code></pre>
+<p>To update all pairwise test results:</p>
+<pre class="r"><code># p-values for an equivalence limit 0.2857 (instead of the default 0.4444)
+getPvalue(upgrade(pairwiseTests, d0 = 0.2857))</code></pre>
+<pre><code>##           cangenes.atlas.p-value                cis.atlas.p-value 
+##                              NaN                     1.000000e+00 
+##             cis.cangenes.p-value      miscellaneous.atlas.p-value 
+##                              NaN                     9.999921e-01 
+##   miscellaneous.cangenes.p-value        miscellaneous.cis.p-value 
+##                              NaN                     1.000000e+00 
+##             sanger.atlas.p-value          sanger.cangenes.p-value 
+##                     9.997544e-01                              NaN 
+##               sanger.cis.p-value     sanger.miscellaneous.p-value 
+##                     1.000000e+00                     9.702151e-01 
+##         Vogelstein.atlas.p-value      Vogelstein.cangenes.p-value 
+##                     9.926994e-01                              NaN 
+##           Vogelstein.cis.p-value Vogelstein.miscellaneous.p-value 
+##                     1.000000e+00                     9.859363e-01 
+##        Vogelstein.sanger.p-value            waldman.atlas.p-value 
+##                     2.770467e-42                     1.507441e-01 
+##         waldman.cangenes.p-value              waldman.cis.p-value 
+##                              NaN                     1.000000e+00 
+##    waldman.miscellaneous.p-value           waldman.sanger.p-value 
+##                     2.131637e-02                     9.868297e-01 
+##       waldman.Vogelstein.p-value 
+##                     8.841944e-01</code></pre>
 <p>Functions <code>dSorensen</code>, <code>seSorensen</code> and <code>duppSorensen</code> perform in a similar way. For example, to obtain the Sorensen-Dice dissimilarities matrix:</p>
 <pre class="r"><code>dSorensen(allEnrichTable)</code></pre>
 <pre><code>##                   atlas cangenes       cis miscellaneous     sanger Vogelstein
@@ -2142,7 +2168,7 @@ getPvalue(bootPairwiseTests)</code></pre>
 ## sanger        0.3368794
 ## Vogelstein    0.3118644
 ## waldman       0.0000000</code></pre>
-<p>For objects of class “list”, all these functions (<code>equivTestSorensen</code>, <code>dSorensen</code>, <code>seSorensen</code>, <code>duppSorensen</code>) assume a list of character vectors containing gene identifiers and all pairwise computations are performed. But this approach is much slower than the previous one as the contingency tables must be previously obtained.</p>
+<p>For objects of class “list”, all these functions (<code>equivTestSorensen</code>, <code>dSorensen</code>, <code>seSorensen</code>, <code>duppSorensen</code>) assume a list of character vectors containing gene identifiers and all pairwise tests are also performed. But this approach is much slower than the previous one as the contingency tables must be previously obtained.</p>
 <p>For example, to obtain the matrix of all pairwise Sorensen-Dice dissimilarities:</p>
 <pre class="r"><code>dSorensen(allOncoGeneLists, onto = &quot;BP&quot;, GOLevel = 4, 
           geneUniverse = humanEntrezIDs, orgPackg = &quot;org.Hs.eg.db&quot;)</code></pre>
@@ -2163,8 +2189,8 @@ getPvalue(bootPairwiseTests)</code></pre>
 ## Vogelstein    0.3118644
 ## waldman       0.0000000</code></pre>
 </div>
-<div id="scanning-tests-along-go-ontologies-and-levels" class="section level1" number="8">
-<h1><span class="header-section-number">8</span> Scanning tests along GO ontologies and levels</h1>
+<div id="scanning-tests-along-go-ontologies-and-levels" class="section level1" number="6">
+<h1><span class="header-section-number">6</span> Scanning tests along GO ontologies and levels</h1>
 <p>The following code performs all pairwise tests for the specified ontologies (any subset of “BP”, “MF”, “CC”, all them by default) and GO levels (from 3 to 10 by default):</p>
 <pre class="r"><code># The next code spends a lot of time due to the huge quantity of computations. 
 # Instead of running this line, we suggest loading its result, which 
@@ -2209,6 +2235,14 @@ getPvalue(allOncoResults, onto = &quot;BP&quot;, GOLevel = 4,
 
 # Display all upper confidence limits for the Sorensen-Dice dissimilarity
 # getUpper(allOncoResults)</code></pre>
+<p>It is also possible to upgrade all these test results. For example to obtain the bootstrap tests:</p>
+<pre class="r"><code>bootAllOncoResults &lt;- upgrade(allOncoResults, boot = TRUE)
+getPvalue(bootAllOncoResults, onto = &quot;BP&quot;, GOLevel = 4, 
+          listNames = c(&quot;Vogelstein&quot;,&quot;sanger&quot;))</code></pre>
+<pre><code>## $BP
+## $BP$`level 4`
+##   p-value 
+## 9.999e-05</code></pre>
 </div>
 <div id="session-information" class="section level1 unnumbered">
 <h1>Session information</h1>
@@ -2221,9 +2255,9 @@ getPvalue(allOncoResults, onto = &quot;BP&quot;, GOLevel = 4,
 ## Matrix products: default
 ## 
 ## locale:
-## [1] LC_COLLATE=Spanish_Ecuador.utf8  LC_CTYPE=Spanish_Ecuador.utf8   
-## [3] LC_MONETARY=Spanish_Ecuador.utf8 LC_NUMERIC=C                    
-## [5] LC_TIME=Spanish_Ecuador.utf8    
+## [1] LC_COLLATE=English_Canada.utf8  LC_CTYPE=English_Canada.utf8   
+## [3] LC_MONETARY=English_Canada.utf8 LC_NUMERIC=C                   
+## [5] LC_TIME=English_Canada.utf8    
 ## 
 ## attached base packages:
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
